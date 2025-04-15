@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Cache Memory.md",
+                "file": "Data Structure/Linked List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cache Memory"
+              "title": "Linked List"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -166,10 +166,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2820990e816e680c",
+  "active": "9335c6af417a2b0c",
   "lastOpenFiles": [
-    "2025-04-15.md",
+    "무제",
+    "Unity",
+    "C-Sharp",
+    "C++",
+    "Algorithm",
+    "Network",
+    "Data Structure/Linked List.md",
+    "OS/Multi Process, Multi Thread.md",
+    "OS/Process and Thread.md",
+    "OS/Concurrency and Parallelism.md",
+    "OS/Preemptive, Non-Preemptive.md",
+    "OS/Segmentation.md",
+    "OS/Mutex, Semaphore.md",
+    "OS/Deadlock.md",
+    "OS/PCB.md",
+    "OS/Kenrnel.md",
+    "OS/Virtual Memory.md",
+    "OS/Paging.md",
+    "Data Structure/List, Array.md",
     "OS/Cache Memory.md",
+    "Data Structure/무제 1.md",
+    "Data Structure",
+    "2025-04-15.md",
     "OS",
     "create a link.md",
     "환영합니다!.md"
