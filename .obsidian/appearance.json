@@ -1,5 +1,8 @@
 {
   "cssTheme": "Notation 2",
   "nativeMenus": false,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "colored-nodes"
+  ]
 }

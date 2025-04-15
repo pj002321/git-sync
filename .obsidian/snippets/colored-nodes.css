@@ -1,0 +1,16 @@
+.graph-view.color-fill {
+  color: #fcf601 ;
+  }
+
+.graph-view.color-line {
+  color: #1d3003 ;
+  }
+
+.graph-view.color-text {
+  color: #ffffff ;
+  }
+
+.markdown-source-view, .markdown-preview-view {
+    max-width: 3000px;
+    margin: auto;
+}
