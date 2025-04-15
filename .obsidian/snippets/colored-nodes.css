@@ -1,9 +1,9 @@
 .graph-view.color-fill {
-  color: #fcf601 ;
+  color: #9092f5 ;
   }
 
 .graph-view.color-line {
-  color: #1d3003 ;
+  color: #e1d8ff ;
   }
 
 .graph-view.color-text {
@@ -14,3 +14,4 @@
     max-width: 3000px;
     margin: auto;
 }
+
