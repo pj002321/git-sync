@@ -1658,7 +1658,7 @@ body.notation-colors.theme-dark {
   --color-blue: rgb(82, 156, 202);
   --color-purple: rgb(154, 109, 215);
   --color-pink: rgb(226, 85, 161);
-  --color-red: rgb(255, 115, 105);
+  --color-red: rgb(240, 168, 163);
 
   --color-gray-rgb: 69, 75, 78;
   --color-brown-rgb: 67, 64, 64;
@@ -1680,14 +1680,13 @@ body.notation-colors.theme-dark {
   --background-modifier-border: rgba(var(--text-rgb), 0.14);
   --text-accent: rgba(var(--text-rgb), 0.45);
   --text-accent-hover: rgba(var(--text-rgb), 0.45);
-  --text-normal: rgba(var(--text-rgb), 0.9);
+  --text-normal: rgba(var(--text-rgb), 1.0);
   --text-muted: rgba(var(--text-rgb), 0.7);
-  --text-faint: rgba(var(--text-rgb), 0.55);
+  --text-faint: rgba(var(--text-rgb), 0.65);
   --text-on-accent: rgba(var(--text-rgb), 0.9);
   --interactive-accent: rgb(var(--interactive-accent-rgb));
   --interactive-accent-hover: rgba(var(--interactive-accent-rgb), 0.8);
 }
-
 
 
 /* @settings
