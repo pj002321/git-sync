@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f6dc2a2ed09f9156",
+        "id": "4065fb91d783c709",
         "type": "tabs",
         "children": [
           {
-            "id": "b7c12354c6099fd1",
+            "id": "912ea3d92973ede1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,10 +166,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7c12354c6099fd1",
+  "active": "912ea3d92973ede1",
   "lastOpenFiles": [
-    "OS.md",
+    "OS/Image",
     "OS/Cache Memory.md",
+    "OS/Image/Pasted image 20250415111818.png",
+    "OS.md",
     "OS/Concurrency and Parallelism.md",
     "C++/Smart Pointer.md",
     "OS/Deadlock.md",
@@ -202,7 +204,6 @@
     "OS/Virtual Memory.md",
     "OS/Paging.md",
     "Data Structure/List, Array.md",
-    "Data Structure/무제 1.md",
     "Data Structure"
   ]
 }

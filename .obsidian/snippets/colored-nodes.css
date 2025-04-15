@@ -10,10 +10,6 @@
   color: #ffffff ;
   }
 
-.markdown-source-view, .markdown-preview-view {
-    max-width: 3000px;
-    margin: auto;
-}
 
 /* 미리보기 모드에서 인용문 스타일 */
 .markdown-preview-view blockquote {
