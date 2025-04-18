@@ -11,10 +11,14 @@
             "id": "912ea3d92973ede1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "OS/Virtual Memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtual Memory"
             }
           }
         ]
@@ -162,7 +166,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "912ea3d92973ede1",
+  "active": "9335c6af417a2b0c",
   "lastOpenFiles": [
     "OS/Cache Memory.md",
     "OS/Image",
