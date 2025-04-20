@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e8b9cd0d5f6ed81d",
+        "id": "c85d3d01326b6be4",
         "type": "tabs",
         "children": [
           {
-            "id": "2820990e816e680c",
+            "id": "195f9280755c59d8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef2e3d4ded280dd5",
@@ -154,6 +153,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -162,7 +162,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2820990e816e680c",
+  "active": "195f9280755c59d8",
   "lastOpenFiles": [
     "2025-04-15.md",
     "create a link.md",
