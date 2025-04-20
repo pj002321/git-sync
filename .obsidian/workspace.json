@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4065fb91d783c709",
+        "id": "c85d3d01326b6be4",
         "type": "tabs",
         "children": [
           {
-            "id": "912ea3d92973ede1",
+            "id": "195f9280755c59d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Virtual Memory"
             }
+          },
+          {
+            "id": "3d9fc44801cbb08e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/Cache Memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cache Memory"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -157,52 +172,53 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9335c6af417a2b0c",
+  "active": "3d9fc44801cbb08e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "OS/Cache Memory.md",
-    "OS/Image",
+    "OS/Virtual Memory.md",
     "OS/Image/Pasted image 20250415111818.png",
-    "OS.md",
-    "OS/Concurrency and Parallelism.md",
-    "C++/Smart Pointer.md",
-    "OS/Deadlock.md",
-    "C-Sharp/Life Cycle.md",
-    "C-Sharp/Coroutine.md",
-    "C-Sharp/Unity.md",
-    "Network/TCP.md",
-    "Graphics/Pipeline.md",
-    "Game Math/Vector.md",
-    "Design Pattern/Singletone.md",
-    "CS/CPU.md",
-    "Algorithm/Sort.md",
-    "Data Structure/Linked List.md",
-    "CS",
-    "Design Pattern",
-    "Game Math",
-    "Graphics",
-    "C-Sharp/Unity",
-    "C-Sharp",
-    "C++",
-    "Algorithm",
-    "Network",
-    "OS/Multi Process, Multi Thread.md",
+    "OS/Segmentation.md",
     "OS/Process and Thread.md",
     "OS/Preemptive, Non-Preemptive.md",
-    "OS/Segmentation.md",
-    "OS/Mutex, Semaphore.md",
     "OS/PCB.md",
-    "OS/Kenrnel.md",
-    "OS/Virtual Memory.md",
     "OS/Paging.md",
-    "Data Structure/List, Array.md"
+    "OS/Mutex, Semaphore.md",
+    "OS/Multi Process, Multi Thread.md",
+    "OS/Image",
+    "OS/Kenrnel.md",
+    "OS/Deadlock.md",
+    "OS/Concurrency and Parallelism.md",
+    "OS",
+    "Network/TCP.md",
+    "Network",
+    "Graphics/Pipeline.md",
+    "Graphics",
+    "Game Math/Vector.md",
+    "Game Math",
+    "Design Pattern/Singletone.md",
+    "Design Pattern",
+    "Data Structure/List, Array.md",
+    "Data Structure/Linked List.md",
+    "Data Structure",
+    "CS/CPU.md",
+    "CS",
+    "C-Sharp/Life Cycle.md",
+    "C-Sharp/Coroutine.md",
+    "C-Sharp",
+    "C++/Smart Pointer.md",
+    "C++",
+    "Algorithm/Sort.md",
+    "2025-04-15.md",
+    "create a link.md"
   ]
 }
