@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c85d3d01326b6be4",
+        "id": "4065fb91d783c709",
         "type": "tabs",
         "children": [
           {
-            "id": "195f9280755c59d8",
+            "id": "912ea3d92973ede1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OS/Virtual Memory.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Virtual Memory"
             }
           }
         ]
@@ -37,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -153,19 +157,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "195f9280755c59d8",
+  "active": "9335c6af417a2b0c",
   "lastOpenFiles": [
-    "2025-04-15.md",
-    "create a link.md",
-    "환영합니다!.md"
+    "OS/Cache Memory.md",
+    "OS/Image",
+    "OS/Image/Pasted image 20250415111818.png",
+    "OS.md",
+    "OS/Concurrency and Parallelism.md",
+    "C++/Smart Pointer.md",
+    "OS/Deadlock.md",
+    "C-Sharp/Life Cycle.md",
+    "C-Sharp/Coroutine.md",
+    "C-Sharp/Unity.md",
+    "Network/TCP.md",
+    "Graphics/Pipeline.md",
+    "Game Math/Vector.md",
+    "Design Pattern/Singletone.md",
+    "CS/CPU.md",
+    "Algorithm/Sort.md",
+    "Data Structure/Linked List.md",
+    "CS",
+    "Design Pattern",
+    "Game Math",
+    "Graphics",
+    "C-Sharp/Unity",
+    "C-Sharp",
+    "C++",
+    "Algorithm",
+    "Network",
+    "OS/Multi Process, Multi Thread.md",
+    "OS/Process and Thread.md",
+    "OS/Preemptive, Non-Preemptive.md",
+    "OS/Segmentation.md",
+    "OS/Mutex, Semaphore.md",
+    "OS/PCB.md",
+    "OS/Kenrnel.md",
+    "OS/Virtual Memory.md",
+    "OS/Paging.md",
+    "Data Structure/List, Array.md"
   ]
 }

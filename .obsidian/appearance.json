@@ -1,1 +1,8 @@
-{}
+{
+  "cssTheme": "Minimal",
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "colored-nodes"
+  ]
+}
