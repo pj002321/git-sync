@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Multi Process, Multi Thread.md",
+                "file": "OS/Deadlock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multi Process, Multi Thread"
+              "title": "Deadlock"
             }
           }
         ],
@@ -183,10 +183,11 @@
   },
   "active": "3d9fc44801cbb08e",
   "lastOpenFiles": [
-    "OS/Process and Thread.md",
+    "OS/Kenrnel.md",
+    "OS/Deadlock.md",
     "OS/Multi Process, Multi Thread.md",
     "OS/Paging.md",
-    "OS/Kenrnel.md",
+    "OS/Process and Thread.md",
     "OS/Cache Memory.md",
     "conflict-files-obsidian-git.md",
     "OS/Virtual Memory.md",
@@ -196,7 +197,6 @@
     "OS/PCB.md",
     "OS/Mutex, Semaphore.md",
     "OS/Image",
-    "OS/Deadlock.md",
     "OS/Concurrency and Parallelism.md",
     "OS",
     "Network/TCP.md",
