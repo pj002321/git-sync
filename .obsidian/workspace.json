@@ -27,16 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Deadlock.md",
+                "file": "Development Principles/OOP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deadlock"
+              "title": "OOP"
+            }
+          },
+          {
+            "id": "1ea7ee2a9d0a758b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,44 +191,43 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3d9fc44801cbb08e",
+  "active": "1ea7ee2a9d0a758b",
   "lastOpenFiles": [
+    "Development Principles/SOLID.md",
+    "Development Principles/OOP.md",
+    "Development Principles/Agile.md",
+    "Development Principles",
+    "Design Pattern/Boxing-UnBoxing.md",
+    "Design Pattern/Object Pooling.md",
+    "Design Pattern/Observer.md",
+    "Design Pattern/Singletone.md",
+    "C++/Class, Struct.md",
+    "C++/Smart Pointer.md",
+    "C++/무제.md",
+    "Network/Blocking, Non-Blocking.md",
+    "Network/Async Programming.md",
+    "Network/TCP, UDP.md",
+    "CS/Register.md",
+    "CS/Memory - RAM.md",
+    "CS/ARM Procceser.md",
+    "CS/CPU - GPU.md",
+    "CS/Command.md",
+    "CS/무제.md",
     "OS/Kenrnel.md",
     "OS/Deadlock.md",
     "OS/Multi Process, Multi Thread.md",
     "OS/Paging.md",
     "OS/Process and Thread.md",
     "OS/Cache Memory.md",
-    "conflict-files-obsidian-git.md",
-    "OS/Virtual Memory.md",
     "OS/Image/Pasted image 20250415111818.png",
-    "OS/Segmentation.md",
-    "OS/Preemptive, Non-Preemptive.md",
-    "OS/PCB.md",
-    "OS/Mutex, Semaphore.md",
     "OS/Image",
-    "OS/Concurrency and Parallelism.md",
     "OS",
-    "Network/TCP.md",
     "Network",
-    "Graphics/Pipeline.md",
     "Graphics",
-    "Game Math/Vector.md",
     "Game Math",
-    "Design Pattern/Singletone.md",
     "Design Pattern",
-    "Data Structure/List, Array.md",
-    "Data Structure/Linked List.md",
     "Data Structure",
-    "CS/CPU.md",
     "CS",
-    "C-Sharp/Life Cycle.md",
-    "C-Sharp/Coroutine.md",
-    "C-Sharp",
-    "C++/Smart Pointer.md",
-    "C++",
-    "Algorithm/Sort.md",
-    "2025-04-15.md",
-    "create a link.md"
+    "C-Sharp"
   ]
 }
