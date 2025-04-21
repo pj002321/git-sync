@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Kenrnel.md",
+                "file": "OS/Multi Process, Multi Thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kenrnel"
+              "title": "Multi Process, Multi Thread"
             }
           }
         ],
@@ -183,19 +183,19 @@
   },
   "active": "3d9fc44801cbb08e",
   "lastOpenFiles": [
+    "OS/Process and Thread.md",
+    "OS/Multi Process, Multi Thread.md",
+    "OS/Paging.md",
+    "OS/Kenrnel.md",
     "OS/Cache Memory.md",
     "conflict-files-obsidian-git.md",
     "OS/Virtual Memory.md",
     "OS/Image/Pasted image 20250415111818.png",
     "OS/Segmentation.md",
-    "OS/Process and Thread.md",
     "OS/Preemptive, Non-Preemptive.md",
     "OS/PCB.md",
-    "OS/Paging.md",
     "OS/Mutex, Semaphore.md",
-    "OS/Multi Process, Multi Thread.md",
     "OS/Image",
-    "OS/Kenrnel.md",
     "OS/Deadlock.md",
     "OS/Concurrency and Parallelism.md",
     "OS",
