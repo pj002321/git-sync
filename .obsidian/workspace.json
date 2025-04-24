@@ -16,8 +16,23 @@
               "icon": "lucide-git-fork",
               "title": "그래프 뷰"
             }
+          },
+          {
+            "id": "b0cc82854ac837ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/Multi Process, Multi Thread.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multi Process, Multi Thread"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,18 +177,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "912ea3d92973ede1",
+  "active": "b0cc82854ac837ba",
   "lastOpenFiles": [
+    "OS/Process and Thread.md",
+    "OS/Segmentation.md",
+    "OS/Preemptive, Non-Preemptive.md",
+    "OS/Virtual Memory.md",
+    "OS/Kenrnel.md",
+    "OS/Cache Memory.md",
+    "Network/IOCP.md",
+    "Network/TCP, UDP.md",
     "MagazineStyle/Floating Point.md",
     "Network/Async Programming.md",
     "MagazineStyle",
-    "Network/IOCP.md",
-    "Network/TCP, UDP.md",
     "Network/ngrok.md",
-    "OS/Cache Memory.md",
     "Graphics/anti-aliasing.md",
     "Graphics/Pipeline.md",
-    "OS/Virtual Memory.md",
     "Network/Blocking, Non-Blocking.md",
     "Development Principles/OOP.md",
     "Development Principles/SOLID.md",
@@ -190,10 +209,6 @@
     "C++/Class, Struct.md",
     "OS/Image",
     "OS/Image/Pasted image 20250415111818.png",
-    "OS.md",
-    "OS/Concurrency and Parallelism.md",
-    "C++/Smart Pointer.md",
-    "OS/Deadlock.md",
     "CS",
     "Design Pattern",
     "Game Math",
