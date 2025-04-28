@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Preemptive, Non-Preemptive.md",
+                "file": "OS/PCB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Preemptive, Non-Preemptive"
+              "title": "PCB"
             }
           }
         ],
@@ -179,16 +179,16 @@
   },
   "active": "b0cc82854ac837ba",
   "lastOpenFiles": [
-    "OS/Segmentation.md",
-    "OS/Virtual Memory.md",
     "OS/Process and Thread.md",
-    "OS/Preemptive, Non-Preemptive.md",
-    "OS/PCB.md",
+    "OS/Segmentation.md",
     "OS/Paging.md",
+    "OS/PCB.md",
+    "OS/Concurrency and Parallelism.md",
+    "OS/Preemptive, Non-Preemptive.md",
     "OS/Mutex, Semaphore.md",
+    "OS/Virtual Memory.md",
     "OS/Multi Process, Multi Thread.md",
     "OS/Deadlock.md",
-    "OS/Concurrency and Parallelism.md",
     "OS/Cache Memory.md",
     "OS/Kenrnel.md",
     "Graphics/Pipeline.md",
