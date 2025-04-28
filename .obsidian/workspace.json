@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Multi Process, Multi Thread.md",
+                "file": "OS/Mutex, Semaphore.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multi Process, Multi Thread"
+              "title": "Mutex, Semaphore"
             }
           }
         ],
@@ -179,11 +179,12 @@
   },
   "active": "b0cc82854ac837ba",
   "lastOpenFiles": [
+    "OS/Multi Process, Multi Thread.md",
+    "OS/Kenrnel.md",
     "OS/Process and Thread.md",
     "OS/Segmentation.md",
     "OS/Preemptive, Non-Preemptive.md",
     "OS/Virtual Memory.md",
-    "OS/Kenrnel.md",
     "OS/Cache Memory.md",
     "Network/IOCP.md",
     "Network/TCP, UDP.md",
@@ -206,7 +207,6 @@
     "CS/Command.md",
     "CS/CPU - GPU.md",
     "CS/ARM Procceser.md",
-    "C++/Class, Struct.md",
     "OS/Image",
     "OS/Image/Pasted image 20250415111818.png",
     "CS",
