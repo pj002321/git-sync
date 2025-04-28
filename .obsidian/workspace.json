@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Mutex, Semaphore.md",
+                "file": "OS/Paging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mutex, Semaphore"
+              "title": "Paging"
             }
           }
         ],
@@ -179,6 +179,7 @@
   },
   "active": "b0cc82854ac837ba",
   "lastOpenFiles": [
+    "OS/Mutex, Semaphore.md",
     "OS/Multi Process, Multi Thread.md",
     "OS/Kenrnel.md",
     "OS/Process and Thread.md",
@@ -206,7 +207,6 @@
     "CS/Memory - RAM.md",
     "CS/Command.md",
     "CS/CPU - GPU.md",
-    "CS/ARM Procceser.md",
     "OS/Image",
     "OS/Image/Pasted image 20250415111818.png",
     "CS",
