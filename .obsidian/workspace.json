@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/PCB.md",
+                "file": "OS/Segmentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PCB"
+              "title": "Segmentation"
             }
           }
         ],
@@ -179,10 +179,10 @@
   },
   "active": "b0cc82854ac837ba",
   "lastOpenFiles": [
+    "OS/PCB.md",
     "OS/Process and Thread.md",
     "OS/Segmentation.md",
     "OS/Paging.md",
-    "OS/PCB.md",
     "OS/Concurrency and Parallelism.md",
     "OS/Preemptive, Non-Preemptive.md",
     "OS/Mutex, Semaphore.md",
