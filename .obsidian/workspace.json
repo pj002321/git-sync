@@ -39,26 +39,18 @@
             "id": "1ea7ee2a9d0a758b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
-            "id": "b205eb18da67e971",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "C-Sharp/Life Cycle.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Life Cycle"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +195,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b205eb18da67e971",
+  "active": "1ea7ee2a9d0a758b",
   "lastOpenFiles": [
     "Network/ngrok.md",
     "Network/IOCP.md",
