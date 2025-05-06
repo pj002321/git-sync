@@ -54,6 +54,33 @@ if (handle != null) StopCoroutine(handle);
 
 Unity에서 `async/await`를 사용할 때 생기는 **퍼포먼스 문제**와 **불편함**을 해결하기 위해 나온 경량 비동기 라이브러리.  
 
+| https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
+| using Cysharp.Threading.Tasks;
+## UniTask가 필요한 이유
+
+| 문제                                                                                      | UniTask 해결 방식                                                        |
+| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Unity는 `async/await`가 기본적으로 `Task`를 사용하지만, `Task`는 **GC (Garbage Collection)** 오버헤드가 있음 | `Task` 대신 **GC-free한 `UniTask`** 사용                                  |
+| `await Task.Yield()`는 성능 저하 + 불안정                                                       | `await UniTask.Yield()`는 성능 최적화됨                                     |
+| Unity API를 사용하는 코드를 `await`하려면 `IEnumerator`와 혼용 불편                                     | **코루틴 스타일**의 흐름을 유지한 채 `await` 사용 가능                                 |
+| `CancellationToken`, 시간 지연, 조건 대기 등 다양하게 `await` 불가                                     | `UniTask.Delay`, `WaitUntil`, `WaitForSeconds` 등 Unity에 특화된 await 지원 |
+## ✅ Coroutine과의 비교 요약
+
+| 항목           | Coroutine             | UniTask                  |
+| ------------ | --------------------- | ------------------------ |
+| 가독성          | 구조적 흐름에 유리            | 직관적 `await` 문법           |
+| 퍼포먼스         | 프레임 기반으로 자연스러움        | 최적화된 `await` 흐름, GC-free |
+| 병렬 처리        | X                     | O                        |
+| Unity API 접근 | O                     | O (단, 메인 스레드에서만)         |
+| 취소 제어        | 어렵다 (`StopCoroutine`) | `CancellationToken` 지원   |
+| 디버깅          | 어려움                   | `try/catch`로 예외 처리 용이    |
+
+- yield return new WaitForSeconds / yield return new WaitForSecondsRealtime  
+    == await UniTask.Delay
+- yield return null == await UniTask.Yield / await UniTask.NextFrame
+- yield return WaitForEndOfFrame == await UniTask.WaitForEndOfFrame
+- yield return new WaitForFixedUpdate // await UniTask.WaitForFixedUpdate
+- yield return WaitUntil == await UniTask.WaitUntil
 
 ## 💬 Coroutine은 언제 사용?
 시간이 흐른 후에 실행하거나, 여러 프레임에 걸쳐서 천천히 작업할 때 사용.
@@ -64,4 +91,4 @@ Coroutine은 Unity 엔진에 특화된 프레임 기반 비동기 처리이며, 
 반면, async/await는 .NET 기반의 쓰레드 기반 비동기 처리로, 멀티쓰레드 작업에 더 적합하지만 Unity에서는 제한적이다. (UniTask)
 
 
-[[C-Sharp]]
+[[C-Sharp&Unity]]
