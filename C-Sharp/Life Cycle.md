@@ -41,6 +41,78 @@
 |---|---|
 |`OnDisable()`|비활성화 시 호출됨. OnEnable과 짝을 이룸|
 |`OnDestroy()`|오브젝트가 파괴될 때 호출됨|
+## ⚠ `Start()`에서 다른 오브젝트 접근 시 NullReferenceException
+
+- A 오브젝트의 `Start()`에서 B 오브젝트를 `Find()`하거나 참조하려고 할 때, B 오브젝트가 아직 `Awake()` 상태일 수 있음.
+    
+- 특히 **실행 순서가 보장되지 않는 경우** 문제 발생.
+```
+void Start() {
+    GameObject obj = GameObject.Find("Player");
+    obj.GetComponent<PlayerController>().Initialize(); // Null 발생 가능
+}
+
+```
+참조가 필수라면 `Awake()`에서 미리 찾아서 캐싱하거나, `Script Execution Order`를 활용해 명시적으로 순서 조정.
+
+## ⚠ `OnDisable()`에서 코루틴을 중단하지 않음
+
+- 비활성화된 오브젝트에서 코루틴이 계속 돌고 있으면, 의도치 않게 로직이 수행됨.
+```
+void OnEnable() {
+    StartCoroutine(SomeCoroutine());
+}
+
+void OnDisable() {
+    // 코루틴 정지 안 함
+}
+
+-------------------------------------------------
+
+Coroutine routine;
+
+void OnEnable() {
+    routine = StartCoroutine(SomeCoroutine());
+}
+
+void OnDisable() {
+    if (routine != null) StopCoroutine(routine);
+}
+
+```
+
+## ⚠ FixedUpdate() 입력 처리
+
+`Input.GetKey()`를 `FixedUpdate()`에서 처리하면, 프레임 수보다 물리 업데이트가 적거나 많을 경우 입력이 씹힘.
+```
+void FixedUpdate() {
+    if (Input.GetKey(KeyCode.Space)) {
+        // 점프 처리
+    }
+}
+--------------------------------------------------
+bool jumpRequested = false;
+
+void Update() {
+    if (Input.GetKeyDown(KeyCode.Space)) {
+        jumpRequested = true;
+    }
+}
+
+void FixedUpdate() {
+    if (jumpRequested) {
+        // 점프 처리
+        jumpRequested = false;
+    }
+}
+
+
+```
+
+## ⚠`OnDestroy()`에서 참조된 싱글톤에 접근
+
+---
+
 
 ## 💬 Awake()와 Start()의 차이는 무엇인가요?
 Awake() 는 오브젝트가 생성되자마자 호출, 오브젝트가 비활성화 상태라도 실행.
@@ -52,5 +124,7 @@ FixedUpdate는 물리 연산 전용이며 일정한 시간 간격으로 호출�
 
 ## 💬 OnEnable과 Start 중 초기화 배치관련
 OnEnable 은 매번 활성화 시 호출되기 때문에 반복되는 초기화에 적합하고, Start는 처음 한 번만 호출되므로 1회성 초기화에 적합하다.
+
+`Application.quitting` 시점의 종료 처리 주의 (`OnDestroy`보다 먼저 관리해야 함)
 
 [[Unity]]
