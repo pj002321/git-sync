@@ -57,7 +57,7 @@ void Start() {
 
 ## ⚠ `OnDisable()`에서 코루틴을 중단하지 않음
 
-- 비활성화된 오브젝트에서 코루틴이 계속 돌고 있으면, 의도치 않게 로직이 수행됨.
+비활성화된 오브젝트에서 코루틴이 계속 돌고 있으면, 의도치 않게 로직이 수행됨.
 ```
 void OnEnable() {
     StartCoroutine(SomeCoroutine());
@@ -110,6 +110,16 @@ void FixedUpdate() {
 ```
 
 ## ⚠`OnDestroy()`에서 참조된 싱글톤에 접근
+
+```
+void OnDestroy() {
+    GameManager.Instance.DoSomething(); // NullReference 가능
+}
+
+```
+- 앱 종료나 씬 언로드 중에 싱글톤이 먼저 Destroy되면, 그 이후 오브젝트에서 접근할 경우 예외 발생
+- `Application.isPlaying`이나 `GameManager.Instance != null` 체크 후 접근.
+
 
 ---
 
