@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Unity/MonoBehaviour.md",
+                "file": "C++/RAII.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -41,21 +41,21 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "MonoBehaviour 그래프"
+              "title": "RAII 그래프"
             }
           },
           {
-            "id": "15aca31d60c5e2d9",
+            "id": "858d37c2fa2aca5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unity/MonoBehaviour.md",
+                "file": "C++/RAII.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MonoBehaviour"
+              "title": "RAII"
             }
           }
         ],
@@ -204,36 +204,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15aca31d60c5e2d9",
+  "active": "858d37c2fa2aca5e",
   "lastOpenFiles": [
+    "C++/Observer.md",
+    "C++/Factory_Method.md",
+    "Unity/Unity_Lifecycle.md",
+    "Smart Pointers (스마트 포인터).md",
+    "C++/Singleton.md",
+    "C++/Templates.md",
+    "type.md",
+    "C++/Memory_Management.md",
+    "C++/Algorithms.md",
+    "Singleton (싱글톤).md",
+    "Memory Management (메모리 관리).md",
+    "C++/Iterators.md",
+    "C++/Lambda_Expressions.md",
+    "C++/Smart_Pointers.md",
+    "C++/Move_Semantics.md",
+    "C++/RAII.md",
+    "RAII (자원 획득 초기화).md",
+    "C++/Memory_Leak.md",
+    "C++/Design_Patterns.md",
+    "C++/STL_Containers.md",
+    "C++/Modern_Cpp_Features.md",
+    "Unity/MonoBehaviour.md",
     "Unity/GameObject와_Component.md",
     "Unity/DontDestroyOnLoad.md",
     "Unity/Coroutine.md",
     "Unity/Transform.md",
-    "Unity/Prefab.md",
-    "Unity/Prefab_Variant.md",
-    "Prefab (프리팹).md",
-    "Unity/Scene_Management.md",
-    "Unity/Unity_Lifecycle.md",
-    "Unity/AsyncOperation.md",
-    "Scene (씬).md",
-    "Unity/MonoBehaviour.md",
-    "type.md",
     "Unity",
     "형식",
-    "OS/Segmentation.md",
-    "C-Sharp/Async Programming.md",
-    "OS/Preemptive, Non-Preemptive.md",
-    "OS/Cache Memory.md",
-    "OS/PCB.md",
-    "OS/Process and Thread.md",
-    "OS/Paging.md",
-    "OS/Concurrency and Parallelism.md",
-    "OS/Mutex, Semaphore.md",
-    "OS/Virtual Memory.md",
-    "OS/Multi Process, Multi Thread.md",
-    "OS/Deadlock.md",
-    "OS/Kenrnel.md",
     "MagazineStyle",
     "Development Principles",
     "OS/Image",
