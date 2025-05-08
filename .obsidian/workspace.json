@@ -13,6 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Unity/MonoBehaviour.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -40,17 +41,21 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "title": "MonoBehaviour 그래프"
             }
           },
           {
             "id": "15aca31d60c5e2d9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "Unity/MonoBehaviour.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MonoBehaviour"
             }
           }
         ],
@@ -201,15 +206,15 @@
   },
   "active": "15aca31d60c5e2d9",
   "lastOpenFiles": [
+    "Unity/GameObject와_Component.md",
+    "Unity/DontDestroyOnLoad.md",
+    "Unity/Coroutine.md",
     "Unity/Transform.md",
     "Unity/Prefab.md",
     "Unity/Prefab_Variant.md",
     "Prefab (프리팹).md",
-    "Unity/GameObject와_Component.md",
     "Unity/Scene_Management.md",
     "Unity/Unity_Lifecycle.md",
-    "Unity/DontDestroyOnLoad.md",
-    "Unity/Coroutine.md",
     "Unity/AsyncOperation.md",
     "Scene (씬).md",
     "Unity/MonoBehaviour.md",
