@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graphics/Lighting.md",
+                "file": "Game Math/Quaternion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lighting"
+              "title": "Quaternion"
             }
           }
         ],
@@ -183,11 +183,16 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
+    "Game Math/PolygonMesh.md",
+    "Game Math/Matrix.md",
+    "Graphics/Lighting.md",
+    "Game Math/Rasterization.md",
+    "Game Math/VertexTransformation.md",
+    "Game Math/Quaternion.md",
     "Graphics/Shader.md",
     "Graphics/ComputerGraphics.md",
     "Graphics/anti-aliasing.md",
     "C-Sharp/Delegate.md",
-    "Graphics/Lighting.md",
     "Graphics/Rendering.md",
     "C-Sharp/Serialization.md",
     "C-Sharp/Interface.md",
@@ -204,12 +209,7 @@
     "C-Sharp/Life Cycle.md",
     "C-Sharp/Async Programming.md",
     "C++/Lambda_Expressions.md",
-    "C++/Algorithms.md",
-    "conflict-files-obsidian-git.md",
     "C-Sharp",
-    "C-Sharp&Unity/Addressable.md",
-    "type.md",
-    "Unity/Unity_Lifecycle.md",
     "Unity",
     "MagazineStyle",
     "Development Principles",
