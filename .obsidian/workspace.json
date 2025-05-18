@@ -4,62 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0669a5bd465c0d7e",
+        "id": "c90b90262dfe09dd",
         "type": "tabs",
         "children": [
           {
-            "id": "b4c1ec2eb67ca44d",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "C++/RAII.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "RAII 그래프"
-            }
-          },
-          {
-            "id": "858d37c2fa2aca5e",
+            "id": "5523cc71177a8fe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/RAII.md",
+                "file": "C++/Lambda_Expressions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAII"
+              "title": "Lambda_Expressions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -195,53 +157,53 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "858d37c2fa2aca5e",
+  "active": "5523cc71177a8fe2",
   "lastOpenFiles": [
-    "C++/Observer.md",
-    "C++/Factory_Method.md",
-    "Unity/Unity_Lifecycle.md",
-    "Smart Pointers (스마트 포인터).md",
-    "C++/Singleton.md",
-    "C++/Templates.md",
-    "type.md",
-    "C++/Memory_Management.md",
     "C++/Algorithms.md",
-    "Singleton (싱글톤).md",
-    "Memory Management (메모리 관리).md",
-    "C++/Iterators.md",
-    "C++/Lambda_Expressions.md",
-    "C++/Smart_Pointers.md",
-    "C++/Move_Semantics.md",
-    "C++/RAII.md",
-    "RAII (자원 획득 초기화).md",
-    "C++/Memory_Leak.md",
-    "C++/Design_Patterns.md",
-    "C++/STL_Containers.md",
-    "C++/Modern_Cpp_Features.md",
+    "conflict-files-obsidian-git.md",
+    "C-Sharp/Life Cycle.md",
+    "C-Sharp/Async Programming.md",
+    "C-Sharp",
+    "C-Sharp&Unity/Addressable.md",
+    "type.md",
+    "Unity/Unity_Lifecycle.md",
+    "Unity/Prefab_Variant.md",
+    "Unity/Transform.md",
+    "Unity/Scene_Management.md",
+    "Unity/Prefab.md",
     "Unity/MonoBehaviour.md",
     "Unity/GameObject와_Component.md",
     "Unity/DontDestroyOnLoad.md",
     "Unity/Coroutine.md",
-    "Unity/Transform.md",
+    "Unity/AsyncOperation.md",
     "Unity",
-    "형식",
+    "C++/Templates.md",
+    "C++/Smart_Pointers.md",
+    "C++/Singleton.md",
+    "C++/STL_Containers.md",
+    "C++/RAII.md",
+    "C++/Observer.md",
+    "C++/Move_Semantics.md",
+    "C++/Modern_Cpp_Features.md",
+    "C++/Memory_Management.md",
+    "C++/Memory_Leak.md",
     "MagazineStyle",
     "Development Principles",
-    "OS/Image",
     "OS/Image/Pasted image 20250415111818.png",
-    "CS",
-    "Design Pattern",
-    "Game Math",
+    "OS/Image",
+    "OS",
+    "Network",
     "Graphics",
-    "C-Sharp/Unity"
+    "Game Math",
+    "Design Pattern"
   ]
 }
