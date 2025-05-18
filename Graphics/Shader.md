@@ -1,15 +1,3 @@
----
-tags:
--셰이더-GPU-렌더링-그래픽스-프로그램
--shader-gpu-rendering-graphics-program
--게임개발-면접-DirectX-Unity
-aliases:
--셰이더
--Shader
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 셰이더 (SHADER)
 

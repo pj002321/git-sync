@@ -1,14 +1,6 @@
 [[GameMath]]
 
 ---
-tags:
--벡터-게임수학-방향-크기-연산
--vector-math-direction-magnitude-operation
--게임개발-면접-3D-2D
-aliases:
--벡터
--Vector
-
 ## 벡터 (VECTOR)
 
 #### What is Vector

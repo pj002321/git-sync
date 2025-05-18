@@ -1,15 +1,4 @@
----
-tags:
--렌더링-그래픽스-이미지생성-파이프라인-실시간
--rendering-graphics-image-pipeline-realtime
--게임개발-면접-DirectX-Unity
-aliases:
--렌더링
--Rendering
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
+
 
 ## 렌더링 (RENDERING)
 

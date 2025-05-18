@@ -1,15 +1,3 @@
----
-tags:
--파이프라인-그래픽스-렌더링-단계-구조
--pipeline-graphics-rendering-stage-structure
--게임개발-면접-DirectX-Unity
-aliases:
--파이프라인
--Pipeline
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 파이프라인 (PIPELINE)
 

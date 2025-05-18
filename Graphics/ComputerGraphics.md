@@ -1,15 +1,4 @@
----
-tags:
--컴퓨터그래픽스-렌더링-파이프라인-모델링-조명
--computergraphics-rendering-pipeline-modeling-lighting
--게임개발-면접-그래픽스-3D-2D
-aliases:
--컴퓨터그래픽스
--ComputerGraphics
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
+
 
 ## 컴퓨터 그래픽스 (COMPUTER GRAPHICS)
 

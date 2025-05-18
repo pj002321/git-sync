@@ -1,12 +1,5 @@
----
-tags:
--레스터화-그래픽스-픽셀-변환-게임수학
--rasterization-graphics-pixel-conversion-math
--게임개발-면접-파이프라인-렌더링
-aliases:
--레스터화
--Rasterization
 
+---
 ## 레스터화 (RASTERIZATION)
 
 #### What is Rasterization

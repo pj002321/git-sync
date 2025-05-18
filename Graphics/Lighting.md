@@ -1,15 +1,4 @@
----
-tags:
--조명-그래픽스-빛-렌더링-실시간
--lighting-graphics-light-rendering-realtime
--게임개발-면접-DirectX-Unity
-aliases:
--조명
--Lighting
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
+
 
 ## 조명 (LIGHTING)
 

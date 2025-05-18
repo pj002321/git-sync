@@ -1,12 +1,5 @@
----
-tags:
--정점-변환-행렬-게임수학-그래픽스
--vertex-transformation-matrix-math-graphics
--게임개발-면접-좌표계-3D
-aliases:
--정점변환
--VertexTransformation
 
+---
 ## 정점 변환 (VERTEX TRANSFORMATION)
 
 #### What is Vertex Transformation
