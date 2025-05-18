@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-Sharp/Delegate.md",
+                "file": "Graphics/Lighting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delegate"
+              "title": "Lighting"
             }
           }
         ],
@@ -183,8 +183,12 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
-    "Graphics/Rendering.md",
     "Graphics/ComputerGraphics.md",
+    "Graphics/anti-aliasing.md",
+    "C-Sharp/Delegate.md",
+    "Graphics/Lighting.md",
+    "Graphics/Shader.md",
+    "Graphics/Rendering.md",
     "C-Sharp/Serialization.md",
     "C-Sharp/Interface.md",
     "C-Sharp/DesignPattern.md",
@@ -198,7 +202,6 @@
     "Unity/GameObject와_Component.md",
     "C-Sharp/OOP.md",
     "C-Sharp/Life Cycle.md",
-    "C-Sharp/Delegate.md",
     "C-Sharp/Async Programming.md",
     "C++/Lambda_Expressions.md",
     "C++/Algorithms.md",
@@ -207,9 +210,6 @@
     "C-Sharp&Unity/Addressable.md",
     "type.md",
     "Unity/Unity_Lifecycle.md",
-    "Unity/Prefab_Variant.md",
-    "Unity/Transform.md",
-    "Unity/Scene_Management.md",
     "Unity",
     "MagazineStyle",
     "Development Principles",
