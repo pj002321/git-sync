@@ -22,11 +22,6 @@ author: "[[AI Assistant]]"
 - 예시 (Examples):
 	- 게임에서 카메라, 조명, 메시, 텍스처 등 다양한 요소가 파이프라인을 거쳐 최종 이미지로 출력 (Unity Technologies, 2020).
 
-#### DirectX와 Unity에서의 파이프라인
-- DirectX는 고정 및 프로그래머블 파이프라인 구조를 제공하며, 개발자가 각 단계를 세밀하게 제어할 수 있다.
-- Unity는 내부적으로 다양한 그래픽 API(DirectX, OpenGL 등)를 추상화하여 파이프라인을 구성한다.
-- Unity의 SRP(Scriptable Render Pipeline)는 파이프라인의 각 단계를 커스터마이즈할 수 있게 해준다.
-
 ## Literature Review
 
 #### Foley et al., 1996
@@ -53,13 +48,21 @@ author: "[[AI Assistant]]"
 	- 파이프라인 커스터마이즈 방법
 	- 다양한 렌더링 방식 지원
 
-## 관련 개념 (Related Concepts)
+## 주제별 세부 내용 정리
+- 파이프라인의 주요 단계(입력, 버텍스, 래스터화, 픽셀, 출력)
+- DirectX의 고정/프로그래머블 파이프라인
+- Unity의 SRP 구조
+- GPU 병렬 처리
+- 각 단계별 역할과 최적화
 
-- [[렌더링 (RENDERING)]] #pipeline-rendering
-	- 파이프라인의 최종 결과물 생성 과정
-- [[셰이더 (SHADER)]] #pipeline-shader
-	- 각 파이프라인 단계에서 실행되는 프로그램
-- [[래스터화 (RASTERIZATION)]] #pipeline-rasterization
-	- 3D 데이터를 2D 픽셀로 변환하는 과정
-- [[출력 병합 (OUTPUT MERGER)]] #pipeline-output
-	- 최종 이미지를 합성하는 단계
+#### DirectX와 Unity에서의 파이프라인
+- DirectX는 고정 및 프로그래머블 파이프라인 구조를 제공하며, 개발자가 각 단계를 세밀하게 제어할 수 있다.
+- Unity는 내부적으로 다양한 그래픽 API(DirectX, OpenGL 등)를 추상화하여 파이프라인을 구성한다.
+- Unity의 SRP(Scriptable Render Pipeline)는 파이프라인의 각 단계를 커스터마이즈할 수 있게 해준다.
+
+## 예상 면접 질문
+- 그래픽스 파이프라인의 주요 단계는?
+- DirectX와 Unity의 파이프라인 구조 차이는?
+- SRP의 장점은?
+- 각 단계별로 최적화할 수 있는 방법은?
+- 래스터화와 레이트레이싱의 차이는?

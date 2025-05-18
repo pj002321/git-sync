@@ -23,11 +23,6 @@ author: "[[AI Assistant]]"
 	- 게임에서 플레이어가 손전등을 켰을 때 주변이 밝아지는 효과 (Unity Technologies, 2020).
 	- 실시간 그림자, 반사, PBR(물리 기반 렌더링) 조명 (Akenine-Möller et al., 2018).
 
-#### DirectX와 Unity에서의 조명
-- DirectX는 개발자가 HLSL로 직접 조명 모델을 구현할 수 있다.
-- Unity는 다양한 조명 타입(Point, Spot, Directional 등)과 실시간/베이크드 조명, GI(Global Illumination) 시스템을 제공한다.
-- Unity의 Lighting 시스템은 엔진 내부에서 최적화 및 자동화되어 있다.
-
 ## Literature Review
 
 #### Foley et al., 1996
@@ -54,15 +49,21 @@ author: "[[AI Assistant]]"
 	- 실시간/베이크드 조명, GI 지원
 	- 최적화 및 자동화 기능
 
-## 관련 개념 (Related Concepts)
+## 주제별 세부 내용 정리
+- 조명의 종류(실시간, 베이크드, GI 등)
+- 광원 타입(Point, Spot, Directional 등)
+- 그림자, 반사, PBR
+- Unity의 Lighting 시스템 구조
+- DirectX에서의 조명 모델 구현
 
-- [[광원 (LIGHT SOURCE)]] #lighting-source
-	- 장면 내 빛을 생성하는 요소
-- [[그림자 (SHADOW)]] #lighting-shadow
-	- 빛에 의해 생성되는 어두운 영역
-- [[반사 (REFLECTION)]] #lighting-reflection
-	- 표면에서 빛이 반사되는 효과
-- [[글로벌 일루미네이션 (GLOBAL ILLUMINATION)]] #lighting-GI
-	- 간접광, 다중 반사 등 현실감 있는 조명
-- [[PBR (PHYSICALLY BASED RENDERING)]] #lighting-PBR
-	- 물리 기반의 조명 및 재질 표현 
+#### DirectX와 Unity에서의 조명
+- DirectX는 개발자가 HLSL로 직접 조명 모델을 구현할 수 있다.
+- Unity는 다양한 조명 타입(Point, Spot, Directional 등)과 실시간/베이크드 조명, GI(Global Illumination) 시스템을 제공한다.
+- Unity의 Lighting 시스템은 엔진 내부에서 최적화 및 자동화되어 있다.
+
+## 예상 면접 질문
+- 실시간 조명과 베이크드 조명의 차이는?
+- Unity에서 GI(Global Illumination)란?
+- DirectX에서 조명 모델을 구현할 때 고려할 점은?
+- PBR 조명의 원리는?
+- 게임에서 조명 최적화 방법은? 

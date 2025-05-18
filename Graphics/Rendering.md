@@ -23,12 +23,6 @@ author: "[[AI Assistant]]"
 	- 게임에서 플레이어의 시점에 따라 실시간으로 장면을 그리는 과정 (Unity Technologies, 2020).
 	- 영화에서 고품질 이미지를 생성하는 오프라인 렌더링 (Foley et al., 1996).
 
-#### DirectX와 Unity에서의 렌더링
-- DirectX는 Windows 기반의 저수준 그래픽 API로, 개발자가 파이프라인의 세부를 직접 제어할 수 있다.
-- Unity는 고수준 엔진으로, 내부적으로 DirectX/OpenGL/Vulkan 등 다양한 API를 추상화하여 제공한다.
-- Unity의 Scriptable Render Pipeline(SRP)은 개발자가 렌더링 과정을 커스터마이즈할 수 있게 해준다.
-- DirectX에서는 HLSL을, Unity에서는 HLSL/ShaderLab/C#을 사용해 셰이더를 작성한다.
-
 ## Literature Review
 
 #### Foley et al., 1996
@@ -55,13 +49,24 @@ author: "[[AI Assistant]]"
 	- SRP, URP, HDRP 등 다양한 렌더링 방식
 	- 커스터마이즈와 최적화
 
-## 관련 개념 (Related Concepts)
+## 주제별 세부 내용 정리
 
-- [[파이프라인 (PIPELINE)]] #rendering-pipeline
-	- 렌더링 처리의 단계적 흐름
-- [[셰이더 (SHADER)]] #rendering-shader
-	- GPU에서 실행되는 렌더링 프로그램
-- [[조명 (LIGHTING)]] #rendering-lighting
-	- 장면 내 빛의 효과를 시뮬레이션
-- [[텍스처링 (TEXTURING)]] #rendering-texturing
-	- 표면에 이미지를 입혀 사실감을 높임 
+- 실시간 렌더링 vs 오프라인 렌더링
+- 렌더링 파이프라인(DirectX/Unity)
+- 셰이더와 머티리얼
+- 조명, 그림자, 텍스처링, 포스트 프로세싱
+- Unity의 SRP, URP, HDRP
+- DirectX의 HLSL, 저수준 제어
+
+#### DirectX와 Unity에서의 렌더링
+- DirectX는 Windows 기반의 저수준 그래픽 API로, 개발자가 파이프라인의 세부를 직접 제어할 수 있다.
+- Unity는 고수준 엔진으로, 내부적으로 DirectX/OpenGL/Vulkan 등 다양한 API를 추상화하여 제공한다.
+- Unity의 Scriptable Render Pipeline(SRP)은 개발자가 렌더링 과정을 커스터마이즈할 수 있게 해준다.
+- DirectX에서는 HLSL을, Unity에서는 HLSL/ShaderLab/C#을 사용해 셰이더를 작성한다.
+
+## 예상 면접 질문
+- 실시간 렌더링과 오프라인 렌더링의 차이는?
+- 렌더링 파이프라인의 주요 단계는?
+- Unity에서 SRP와 URP, HDRP의 차이점은?
+- DirectX에서 셰이더를 작성할 때 주의할 점은?
+- 게임에서 렌더링 최적화 방법은? 
