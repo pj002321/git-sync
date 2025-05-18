@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- Iterators
-- STL
-- Containers
-- Algorithms
-aliases:
-- Iterators
-- CppIterators
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 반복자 (Iterators)
 
@@ -48,3 +34,6 @@ author: "[[작성자]]"
 
 - [[Iterator Invalidation (반복자 무효화)]] #cpp #iterator #safety
 	- 반복자가 유효하지 않게 되는 상황 
+
+
+[[C++]]  

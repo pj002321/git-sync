@@ -47,3 +47,5 @@ author: "[[작성자]]"
 
 - [[Memory Leak (메모리 누수)]] #cpp #bug #memory
 	- 할당된 메모리가 해제되지 않는 문제 
+
+[[C++]]  

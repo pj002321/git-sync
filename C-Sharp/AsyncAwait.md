@@ -1,16 +1,3 @@
----
-tags:
--비동기-AsyncAwait-비동기프로그래밍-동시성-Task
--async-await-concurrency-task-thread
--게임개발-면접-성능-네트워크
-aliases:
--Async
--Await
--비동기
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 비동기 프로그래밍 (ASYNC/AWAIT)
 

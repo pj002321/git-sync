@@ -1,50 +1,48 @@
----
-tags:
-- C++
-- DesignPatterns
-- Singleton
-- OOP
-- Architecture
-aliases:
-- Singleton
-- CppSingleton
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
-## 싱글톤 (Singleton)
+## 싱글톤 패턴 (Singleton Pattern)
 
-#### What is Singleton
+#### What is Singleton Pattern
 
 - 정의 (Definition):
-	- 싱글톤은 클래스의 인스턴스가 하나만 존재하도록 보장하는 디자인 패턴입니다. (Gamma et al., 1994)
-	- 전역 접근점을 제공하면서도 인스턴스의 수를 제한합니다.
+	- 싱글톤은 **프로그램 전체에서 단 하나의 인스턴스**만 존재하도록 보장하는 생성(Creational) 디자인 패턴입니다.
+	- 전역 상태, 리소스 관리, 매니저 등에 활용됩니다.
 
 - 예시 (Examples):
-	- 기본 싱글톤: `static Singleton& getInstance()`
-	- 스레드 안전 싱글톤: `std::call_once` 사용
-	- 마이어스 싱글톤: `static Singleton& getInstance() { static Singleton instance; return instance; }`
-	- 의존성 주입 싱글톤: `static void setInstance(std::unique_ptr<Singleton> instance)`
-	- CRTP 싱글톤: `template<typename T> class Singleton<T>`
+	- 게임 엔진의 ResourceManager, Logger 등
+	- 코드 예시 (C++11 이상, 스레드 안전):
+```cpp
+class GameManager {
+public:
+	static GameManager& Instance() {
+		static GameManager instance;
+		return instance;
+	}
+	GameManager(const GameManager&) = delete;
+	void operator=(const GameManager&) = delete;
+private:
+	GameManager() {}
+};
+```
 
-## Literature Review
+## 주제별 세부 내용 정리와 설명
+- **구조**: 생성자 private, static 인스턴스, 복사/대입 금지
+- **Modern C++**: C++11 static 지역 변수로 스레드 안전 보장
+- **장점**: 전역 인스턴스 보장, 리소스 공유, 접근 용이
+- **단점**: 테스트/확장 어려움, 의존성 증가, 멀티스레드 환경 주의(구버전)
+- **게임/엔진 활용**: 리소스, 설정, 로깅 등 전역 관리에 사용
+- **실전 팁**: 남용 금지, DI/테스트 고려, Modern C++에서 static 지역 변수 활용
 
-#### Gamma et al., 1994
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-	- Source: Addison-Wesley Professional
-- 주요 내용 (Key points):
-	- 싱글톤은 전역 상태를 캡슐화합니다.
-	- 스레드 안전성에 주의해야 합니다.
-	- 테스트와 모듈성에 영향을 줄 수 있습니다.
+## 예상 면접 질문과 답변
+- Q. 싱글톤 패턴이란?
+	A. 프로그램 전체에서 단 하나의 인스턴스만 존재하도록 보장하는 패턴입니다.
+- Q. Modern C++에서 싱글톤을 안전하게 구현하는 방법은?
+	A. static 지역 변수(C++11 이상)로 스레드 안전 보장.
+- Q. 싱글톤의 단점은?
+	A. 테스트/확장 어려움, 의존성 증가.
 
 ## 관련 개념 (Related Concepts)
+- [[디자인 패턴 (Design Pattern)]] #designpattern #cpp
+- [[전역 객체]] #global #object 
 
-- [[Thread Safety (스레드 안전성)]] #cpp #threading #safety
-	- 멀티스레드 환경에서의 안전한 싱글톤 구현
 
-- [[Dependency Injection (의존성 주입)]] #cpp #design #patterns
-	- 싱글톤의 대안으로 사용되는 패턴
-
-- [[RAII (Resource Acquisition Is Initialization)]] #cpp #raii #resource
-	- 싱글톤의 리소스 관리 방법 
+[[C++]]  

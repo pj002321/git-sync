@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- STL
-- Algorithms
-- Containers
-- Programming
-aliases:
-- STLAlgorithms
-- CppAlgorithms
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## STL 알고리즘 (STL Algorithms)
 

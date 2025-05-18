@@ -47,3 +47,5 @@ author: "[[작성자]]"
 
 - [[Lambda Expressions (람다 표현식)]] #cpp #functional #programming
 	- 익명 함수를 정의하는 방법 
+
+[[C++]]  

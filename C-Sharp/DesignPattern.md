@@ -1,15 +1,4 @@
----
-tags:
--디자인패턴-설계-재사용성-유지보수-구조
--designpattern-structure-reusability-maintainability-architecture
--게임개발-면접-패턴-코드품질
-aliases:
--디자인패턴
--DesignPattern
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
+
 
 ## 디자인 패턴 (DESIGN PATTERN)
 

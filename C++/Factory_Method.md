@@ -1,42 +1,60 @@
----
-tags:
-- C++
-- DesignPatterns
-- Factory
-- OOP
-- Architecture
-aliases:
-- FactoryMethod
-- CppFactory
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
-## 팩토리 메서드 (Factory Method)
+## 팩토리 메서드 패턴 (Factory Method Pattern)
 
-#### What is Factory Method
+#### What is Factory Method Pattern
 
 - 정의 (Definition):
-	- 팩토리 메서드는 객체 생성의 책임을 서브클래스에 위임하는 디자인 패턴입니다. (Gamma et al., 1994)
-	- 구체적인 클래스의 인스턴스화를 캡슐화하고, 클라이언트 코드와 구체 클래스를 분리합니다.
+    - 팩토리 메서드는 **객체 생성 코드를 서브클래스에 위임**하여, 객체 생성 구조를 유연하게 만드는 생성(Creational) 디자인 패턴입니다.
+    - 객체 생성의 책임을 분리해 확장성과 유지보수성을 높입니다.
 
 - 예시 (Examples):
-	- 기본 팩토리: `virtual Product* createProduct() = 0`
-	- 템플릿 팩토리: `template<typename T> class Factory`
-	- 정적 팩토리: `static std::unique_ptr<Product> create()`
-	- 등록 가능한 팩토리: `static void registerCreator(const std::string& type, Creator creator)`
-	- 추상 팩토리와의 조합: `class AbstractFactory { virtual Product* createProduct() = 0; }`
+    - 게임에서 무기/몬스터/아이템 등 다양한 객체 생성
+    - 코드 예시 (C++):
+```cpp
+class Product {
+public:
+    virtual void Use() = 0;
+    virtual ~Product() = default;
+};
+class ConcreteProduct : public Product {
+public:
+    void Use() override { /* ... */ }
+};
+class Creator {
+public:
+    virtual std::unique_ptr<Product> Create() = 0;
+};
+class ConcreteCreator : public Creator {
+public:
+    std::unique_ptr<Product> Create() override {
+        return std::make_unique<ConcreteProduct>();
+    }
+};
+```
 
 ## Literature Review
 
 #### Gamma et al., 1994
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-	- Source: Addison-Wesley Professional
-- 주요 내용 (Key points):
-	- 팩토리 메서드는 객체 생성의 유연성을 제공합니다.
-	- 의존성 역전 원칙을 따릅니다.
-	- 확장에 열려있고 수정에 닫혀있는 구조를 만듭니다.
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Factory_method_pattern)
+    - 팩토리 메서드의 구조, 장단점, 활용 사례
+
+## 주제별 세부 내용 정리와 설명
+- **구조**: Creator(생성자)와 Product(생성 객체)로 분리, 서브클래스가 객체 생성 책임
+- **Modern C++**: 스마트 포인터(std::unique_ptr 등)로 메모리 관리
+- **장점**: 객체 생성 구조 분리, 확장성/유지보수성 향상
+- **단점**: 클래스 수 증가, 구조 복잡도 증가
+- **게임/엔진 활용**: 다양한 무기/몬스터/아이템/이펙트 등 동적 생성에 활용
+- **실전 팁**: 스마트 포인터/RAII로 메모리 관리, DI/확장성 고려
+
+## 예상 면접 질문과 답변
+- Q. 팩토리 메서드 패턴이란?
+  A. 객체 생성 코드를 서브클래스에 위임해 유연하게 만드는 패턴입니다.
+- Q. Modern C++에서 팩토리 메서드 구현 시 주의점은?
+  A. 스마트 포인터로 메모리 관리, 확장성 고려.
+
+## 관련 개념 (Related Concepts)
+- [[디자인 패턴 (Design Pattern)]] #designpattern #cpp
+- [[추상 팩토리 패턴]] #abstractfactory #pattern
 
 ## 관련 개념 (Related Concepts)
 
@@ -48,3 +66,7 @@ author: "[[작성자]]"
 
 - [[Virtual Constructor (가상 생성자)]] #cpp #design #patterns
 	- 팩토리 메서드의 대안이 되는 패턴 
+
+
+
+[[C++]]  

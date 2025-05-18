@@ -46,3 +46,7 @@ author: "[[작성자]]"
 
 - [[Destructor (소멸자)]] #cpp #class #destructor
 	- RAII의 핵심이 되는 객체 소멸 시점 처리 
+
+
+
+[[C++]]  

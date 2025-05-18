@@ -1,50 +1,42 @@
----
-tags:
-- C++
-- DesignPatterns
-- Observer
-- OOP
-- Architecture
-aliases:
-- Observer
-- CppObserver
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
-## 옵저버 (Observer)
 
-#### What is Observer
+## 옵저버 패턴 (Observer Pattern)
+
+#### What is Observer Pattern
 
 - 정의 (Definition):
-	- 옵저버는 객체 간의 일대다 의존성을 정의하는 디자인 패턴입니다. (Gamma et al., 1994)
-	- 한 객체의 상태가 변경되면 그 객체에 의존하는 모든 객체들이 자동으로 통지받고 업데이트됩니다.
+    - 옵저버는 **한 객체의 상태 변화**를 여러 객체(옵저버)에게 자동으로 알리는 행위(Behavioral) 디자인 패턴입니다.
+    - 이벤트 시스템, UI 갱신, 상태 변화 알림 등에 활용됩니다.
 
 - 예시 (Examples):
-	- 기본 옵저버: `virtual void update() = 0`
-	- 이벤트 기반 옵저버: `std::function<void()> callback`
-	- 스레드 안전 옵저버: `std::mutex` 사용
-	- 약한 참조 옵저버: `std::weak_ptr<Observer>`
-	- 구독/발행 모델: `void subscribe(Observer* obs)`, `void notify()`
+    - 게임 엔진의 이벤트 시스템, UI 자동 갱신
+    - 코드 예시 (C++):
+```cpp
+class IObserver {
+public:
+    virtual void OnNotify() = 0;
+    virtual ~IObserver() = default;
+};
+class Subject {
+    std::vector<IObserver*> observers;
+public:
+    void Add(IObserver* obs) { observers.push_back(obs); }
+    void Notify() { for(auto* o : observers) o->OnNotify(); }
+};
+```
 
-## Literature Review
+## 주제별 세부 내용 정리와 설명
+- **구조**: Subject(관찰 대상)와 Observer(관찰자)로 분리, 상태 변화 시 알림
+- **Modern C++**: 스마트 포인터로 메모리 관리, 람다/함수 객체 활용 가능
+- **장점**: 느슨한 결합, 확장성, 자동화된 알림
+- **단점**: 복잡도 증가, 순환 참조/메모리 누수 주의
+- **게임/엔진 활용**: 이벤트 시스템, UI, 상태 변화 알림 등에서 자주 사용
+- **실전 팁**: 스마트 포인터/RAII로 메모리 관리, 구독 해제(메모리 누수 방지) 주의
 
-#### Gamma et al., 1994
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-	- Source: Addison-Wesley Professional
-- 주요 내용 (Key points):
-	- 옵저버는 느슨한 결합을 촉진합니다.
-	- 발행-구독 패턴의 기반이 됩니다.
-	- 메모리 누수에 주의해야 합니다.
+## 예상 면접 질문과 답변
+- Q. 옵저버 패턴이란?
+  A. 한 객체의 상태 변화가 여러 객체에 자동으로 알림되는 패턴입니다.
+- Q. Modern C++에서 옵저버 패턴 구현 시 주의점은?
+  A. 스마트 포인터/RAII로 메모리 관리, 순환 참조 방지.
 
-## 관련 개념 (Related Concepts)
-
-- [[Publish-Subscribe (발행-구독)]] #cpp #design #patterns
-	- 옵저버 패턴의 확장된 형태
-
-- [[Event Handling (이벤트 처리)]] #cpp #design #patterns
-	- 옵저버 패턴의 일반적인 사용 사례
-
-- [[Smart Pointers (스마트 포인터)]] #cpp #memory #management
-	- 옵저버의 수명 관리에 사용되는 도구 
+[[C++]]  

@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- DesignPatterns
-- Architecture
-- OOP
-- SoftwareDesign
-aliases:
-- DesignPatterns
-- CppPatterns
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 디자인 패턴 (Design Patterns)
 
@@ -46,3 +32,6 @@ author: "[[작성자]]"
 
 - [[Observer (옵저버)]] #cpp #pattern #observer
 	- 객체 간의 느슨한 결합을 구현하는 패턴 
+
+
+[[C++]]  
