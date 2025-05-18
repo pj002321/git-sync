@@ -1,15 +1,3 @@
----
-tags:
--인터페이스-계약-다형성-구현-추상화
--interface-contract-polymorphism-implementation-abstraction
--게임개발-면접-설계-유지보수
-aliases:
--인터페이스
--Interface
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 인터페이스 (INTERFACE)
 
@@ -42,10 +30,9 @@ author: "[[AI Assistant]]"
 	- 게임 오브젝트 관리
 
 ## 관련 개념 (Related Concepts)
+	- 다형성 : 동일한 인터페이스로 다양한 동작을 구현하는 개념
+	- 추상화 : 불필요한 세부 구현을 숨기고, 필요한 기능만 노출하는 개념
+	- 구현 : 인터페이스에 정의된 멤버를 실제로 작성하는 과정 
 
-- [[다형성 (POLYMORPHISM)]] #interface-polymorphism
-	- 동일한 인터페이스로 다양한 동작을 구현하는 개념
-- [[추상화 (ABSTRACTION)]] #interface-abstraction
-	- 불필요한 세부 구현을 숨기고, 필요한 기능만 노출하는 개념
-- [[구현 (IMPLEMENTATION)]] #interface-implementation
-	- 인터페이스에 정의된 멤버를 실제로 작성하는 과정 
+
+[[C-Sharp&Unity]]

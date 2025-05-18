@@ -30,10 +30,9 @@
 	- 게임 성능 최적화
 
 ## 관련 개념 (Related Concepts)
-
-- [[Task]] #async-task
 	- 비동기 작업을 나타내는 객체
-- [[동시성 (CONCURRENCY)]] #async-concurrency
 	- 여러 작업을 동시에 처리하는 개념
-- [[스레드 (THREAD)]] #async-thread
 	- OS 레벨에서 병렬로 실행되는 작업 단위 
+
+
+[[C-Sharp&Unity]]

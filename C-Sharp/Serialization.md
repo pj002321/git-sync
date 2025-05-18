@@ -1,15 +1,3 @@
----
-tags:
--직렬화-데이터저장-네트워크-포맷-역직렬화
--serialization-datastorage-network-format-deserialization
--게임개발-면접-저장-통신
-aliases:
--직렬화
--Serialization
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 직렬화 (SERIALIZATION)
 
@@ -42,10 +30,8 @@ author: "[[AI Assistant]]"
 	- 게임 저장 및 네트워크 통신 사례
 
 ## 관련 개념 (Related Concepts)
+	- 역직렬화 : 직렬화된 데이터를 다시 객체로 복원하는 과정
+	- 데이터 포맷 : 직렬화에 사용되는 데이터 표현 방식 (JSON, XML 등)
+	- 저장 : 게임 데이터를 파일 등 외부 저장소에 기록하는 과정 
 
-- [[역직렬화 (DESERIALIZATION)]] #serialization-deserialization
-	- 직렬화된 데이터를 다시 객체로 복원하는 과정
-- [[데이터 포맷 (DATA FORMAT)]] #serialization-format
-	- 직렬화에 사용되는 데이터 표현 방식 (JSON, XML 등)
-- [[저장 (SAVE)]] #serialization-save
-	- 게임 데이터를 파일 등 외부 저장소에 기록하는 과정 
+[[C-Sharp&Unity]]

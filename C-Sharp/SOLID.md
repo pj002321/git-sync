@@ -1,15 +1,3 @@
----
-tags:
--SOLID-원칙-설계-유지보수-확장성
--SOLID-principle-design-maintainability-extensibility
--게임개발-면접-아키텍처-코드품질
-aliases:
--SOLID
--솔리드
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## SOLID 원칙 (SOLID PRINCIPLES)
 
@@ -34,10 +22,8 @@ author: "[[AI Assistant]]"
 	- 유지보수성과 확장성 향상
 
 ## 관련 개념 (Related Concepts)
+	- OOP : SOLID 원칙의 기반이 되는 프로그래밍 패러다임
+	- 디자인 패턴 : 반복적으로 등장하는 설계 문제의 해결책
+	- 아키텍쳐 : 시스템의 구조와 설계 원칙 
 
-- [[객체지향 프로그래밍 (OOP)]] #SOLID-OOP
-	- SOLID 원칙의 기반이 되는 프로그래밍 패러다임
-- [[디자인 패턴 (DESIGN PATTERN)]] #SOLID-designpattern
-	- 반복적으로 등장하는 설계 문제의 해결책
-- [[아키텍처 (ARCHITECTURE)]] #SOLID-architecture
-	- 시스템의 구조와 설계 원칙 
+[[C-Sharp&Unity]]

@@ -23,10 +23,9 @@
 	- 코드 재사용성 및 유지보수성 강조
 
 ## 관련 개념 (Related Concepts)
+	- 싱글턴 : 인스턴스가 하나만 존재하도록 보장하는 패턴
+	- 옵저버 : 객체 상태 변화 시 자동으로 알림을 받는 패턴
+	- 팩토리 : 객체 생성을 캡슐화하는 패턴 
 
-- [[싱글턴 (SINGLETON)]] #designpattern-singleton
-	- 인스턴스가 하나만 존재하도록 보장하는 패턴
-- [[옵저버 (OBSERVER)]] #designpattern-observer
-	- 객체 상태 변화 시 자동으로 알림을 받는 패턴
-- [[팩토리 (FACTORY)]] #designpattern-factory
-	- 객체 생성을 캡슐화하는 패턴 
+
+[[C-Sharp&Unity]]

@@ -1,15 +1,3 @@
----
-tags:
--가비지컬렉션-GC-메모리관리-자동관리-최적화
--garbagecollection-memorymanagement-automatic-optimization-GC
--게임개발-면접-성능-최적화-메모리
-aliases:
--GC
--가비지컬렉션
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 가비지 컬렉션 (GARBAGE COLLECTION, GC)
 
@@ -50,10 +38,11 @@ author: "[[AI Assistant]]"
 	- 성능 최적화 방법
 
 ## 관련 개념 (Related Concepts)
-
-- [[메모리 관리 (MEMORY MANAGEMENT)]] #GC-memorymanagement
+메모리 관리 (MEMORY MANAGEMENT)]#GC-memorymanagement
 	- 메모리 할당과 해제를 효율적으로 관리하는 기법
-- [[최적화 (OPTIMIZATION)]] #GC-optimization
+최적화 (OPTIMIZATION)] #GC-optimization
 	- 성능 향상을 위한 코드 및 메모리 관리
-- [[참조 카운팅 (REFERENCE COUNTING)]] #GC-referencecounting
+참조 카운팅 (REFERENCE COUNTING)]#GC-referencecounting
 	- 객체 참조 수를 기반으로 메모리 해제 결정 
+
+[[C-Sharp&Unity]]

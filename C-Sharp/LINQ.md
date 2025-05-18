@@ -1,16 +1,3 @@
----
-tags:
--LINQ-쿼리-데이터-집계-람다
--LINQ-query-data-aggregation-lambda
--게임개발-면접-데이터처리-최적화
-aliases:
--LINQ
--링크
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
-
 ## LINQ (LANGUAGE INTEGRATED QUERY)
 
 #### What is LINQ
@@ -42,10 +29,9 @@ author: "[[AI Assistant]]"
 	- 성능 및 최적화 팁
 
 ## 관련 개념 (Related Concepts)
+	- 람다 : 익명 함수로, 간결하게 동작을 표현하는 문법
+	- 집계 : 여러 데이터를 하나로 요약하는 연산
+	- 컬렉션 : 데이터를 저장하고 관리하는 자료구조 
 
-- [[람다식 (LAMBDA EXPRESSION)]] #LINQ-lambda
-	- 익명 함수로, 간결하게 동작을 표현하는 문법
-- [[집계 (AGGREGATION)]] #LINQ-aggregation
-	- 여러 데이터를 하나로 요약하는 연산
-- [[컬렉션 (COLLECTION)]] #LINQ-collection
-	- 데이터를 저장하고 관리하는 자료구조 
+
+[[C-Sharp&Unity]]

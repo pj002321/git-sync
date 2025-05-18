@@ -1,15 +1,3 @@
----
-tags:
--객체지향프로그래밍-클래스-상속-다형성-캡슐화
--OOP-class-inheritance-polymorphism-encapsulation
--게임개발-면접-기초-설계-유지보수
-aliases:
--객체지향
--OOP
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 객체지향 프로그래밍 (OBJECT-ORIENTED PROGRAMMING, OOP)
 
@@ -50,10 +38,9 @@ author: "[[AI Assistant]]"
 	- 게임 오브젝트 관리
 
 ## 관련 개념 (Related Concepts)
+	- 상속 : 부모 클래스의 속성과 메서드를 자식 클래스가 물려받는 개념
+	- 다형성 : 동일한 인터페이스로 다양한 동작을 구현하는 개념
+	- 캡슐화 : 데이터와 메서드를 하나의 단위로 묶고, 외부에 필요한 부분만 공개하는 개념 
 
-- [[상속 (INHERITANCE)]] #OOP-class-inheritance
-	- 부모 클래스의 속성과 메서드를 자식 클래스가 물려받는 개념
-- [[다형성 (POLYMORPHISM)]] #OOP-polymorphism
-	- 동일한 인터페이스로 다양한 동작을 구현하는 개념
-- [[캡슐화 (ENCAPSULATION)]] #OOP-encapsulation
-	- 데이터와 메서드를 하나의 단위로 묶고, 외부에 필요한 부분만 공개하는 개념 
+
+[[C-Sharp&Unity]]

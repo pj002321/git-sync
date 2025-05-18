@@ -1,15 +1,3 @@
----
-tags:
--이벤트-델리게이트-리스너-이벤트버스-비동기
--event-delegate-listener-eventbus-async
--게임개발-면접-이벤트처리-구조
-aliases:
--이벤트
--Event
-CMDS: "[[:books: 104 Terminologies]]"
-index: "[[:label: Research Notes]]"
-author: "[[AI Assistant]]"
----
 
 ## 이벤트 (EVENT)
 
@@ -43,9 +31,9 @@ author: "[[AI Assistant]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[델리게이트 (DELEGATE)]] #event-delegate
-	- 이벤트의 기반이 되는 타입 안전 함수 포인터
-- [[리스너 (LISTENER)]] #event-listener
-	- 이벤트를 구독하고 처리하는 객체
-- [[이벤트 버스 (EVENT BUS)]] #event-eventbus
-	- 여러 이벤트를 중앙에서 관리하고 분배하는 구조 
+	- 델리게이트 : 이벤트의 기반이 되는 타입 안전 함수 포인터
+	- 이벤트 리스너 : 이벤트를 구독하고 처리하는 객체
+	- 이벤트 버스 : 여러 이벤트를 중앙에서 관리하고 분배하는 구조
+	- 
+	- 
+[[C-Sharp&Unity]]

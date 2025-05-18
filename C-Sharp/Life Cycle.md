@@ -137,4 +137,4 @@ OnEnable 은 매번 활성화 시 호출되기 때문에 반복되는 초기화�
 
 `Application.quitting` 시점의 종료 처리 주의 (`OnDestroy`보다 먼저 관리해야 함)
 
-[[Unity]]
+[[C-Sharp&Unity]]

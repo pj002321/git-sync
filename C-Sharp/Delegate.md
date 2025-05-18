@@ -30,10 +30,10 @@
 	- 실시간 이벤트 처리
 
 ## 관련 개념 (Related Concepts)
-
-- [[이벤트 (EVENT)]] #delegate-event
 	- 특정 동작이 발생했을 때 실행되는 메서드 집합
-- [[콜백 (CALLBACK)]] #delegate-callback
 	- 특정 시점에 호출되는 함수 참조
-- [[비동기 프로그래밍 (ASYNC PROGRAMMING)]] #delegate-async
 	- 델리게이트를 활용한 비동기 작업 처리 
+
+
+
+[[C-Sharp&Unity]]
