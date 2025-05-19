@@ -1,11 +1,4 @@
----
-tags:
--텍스처링-그래픽스-샘플링-UV-맵핑
--texturing-graphics-sampling-uv-mapping
--게임개발-면접-머티리얼-이미지
-aliases:
--텍스처링
--Texturing
+
 
 ## 텍스처링 과정 (TEXTURING)
 
@@ -46,3 +39,5 @@ float4 color = tex2D(sampler, uv);
   A. Material, Texture2D, Shader에서 _MainTex 등.
 - Q. DirectX에서 텍스처 샘플링 구현 방법은?
   A. SamplerState, tex2D/tex.Sample 등 활용. 
+
+[[GameMath]]

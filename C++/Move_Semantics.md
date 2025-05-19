@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- MoveSemantics
-- Performance
-- ModernCpp
-- RValue
-aliases:
-- MoveSemantics
-- CppMove
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 이동 의미론 (Move Semantics)
 
@@ -39,13 +25,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[RValue Reference (우측값 참조)]] #cpp #reference #rvalue
 	- 이동 의미론의 기반이 되는 참조 타입
-
-- [[Perfect Forwarding (완벽한 전달)]] #cpp #forwarding #templates
 	- 인자의 값을 보존하면서 전달하는 기법
-
-- [[Modern C++ Features (모던 C++ 기능)]] #cpp #modern #features
 	- C++11 이후 도입된 새로운 기능들 
 
 [[C++]]  

@@ -58,13 +58,10 @@ public:
 
 ## 관련 개념 (Related Concepts)
 
-- [[Abstract Factory (추상 팩토리)]] #cpp #design #patterns
 	- 관련된 객체들의 생성을 추상화하는 패턴
 
-- [[Dependency Inversion (의존성 역전)]] #cpp #design #principles
 	- 팩토리 메서드가 따르는 설계 원칙
 
-- [[Virtual Constructor (가상 생성자)]] #cpp #design #patterns
 	- 팩토리 메서드의 대안이 되는 패턴 
 
 

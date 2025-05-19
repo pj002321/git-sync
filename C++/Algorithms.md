@@ -14,23 +14,12 @@
 	- 수치: `accumulate()`, `inner_product()`
 	- 분할: `partition()`, `stable_partition()`
 
-## Literature Review
-
-#### Stroustrup, 2013
-- [The C++ Programming Language](https://www.stroustrup.com/4th.html)
-	- Source: Addison-Wesley Professional
 - 주요 내용 (Key points):
 	- 알고리즘은 반복자를 통해 컨테이너와 분리됩니다.
 	- 함수 객체와 람다를 사용할 수 있습니다.
 	- 알고리즘의 복잡도가 보장됩니다.
 
 ## 관련 개념 (Related Concepts)
-
-- [[Iterators (반복자)]] #cpp #iterators #stl
 	- 알고리즘이 사용하는 반복자
-
-- [[Function Objects (함수 객체)]] #cpp #function #objects
 	- 알고리즘의 동작을 커스터마이즈하는 방법
-
-- [[STL Containers (STL 컨테이너)]] #cpp #stl #containers
 	- 알고리즘이 처리하는 데이터 구조 

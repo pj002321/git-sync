@@ -1,11 +1,4 @@
----
-tags:
--충돌검사-게임수학-충돌-피직스-연산
--collision-detection-physics-math-intersection
--게임개발-면접-히트박스-최적화
-aliases:
--충돌검사
--CollisionDetection
+
 
 ## 충돌검사 연산 (COLLISION DETECTION)
 
@@ -48,3 +41,5 @@ bool IntersectAABB(AABB a, AABB b) {
   A. BoundingBox, Intersect 등 내장 함수 활용.
 - Q. 실무에서 충돌검사 최적화 방법은?
   A. Spatial Partitioning, LOD, 단순화된 히트박스 등. 
+
+[[GameMath]]

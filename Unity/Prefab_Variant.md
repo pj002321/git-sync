@@ -38,11 +38,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Prefab (프리팹)]] #unity #prefab #asset
 	- 프리팹 변형의 기본이 되는 템플릿
-
-- [[Asset (에셋)]] #unity #asset #resource
 	- 프리팹 변형이 저장되는 형태
-
-- [[Prefab Mode (프리팹 모드)]] #unity #prefab #workflow
 	- 프리팹을 편집하는 특별한 모드 
+	
+[[C-Sharp&Unity]]

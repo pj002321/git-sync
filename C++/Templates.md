@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- Templates
-- Generic
-- Programming
-- ModernCpp
-aliases:
-- Templates
-- CppTemplates
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 템플릿 (Templates)
 
@@ -40,13 +26,10 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[SFINAE (Substitution Failure Is Not An Error)]] #cpp #templates #sfinae
 	- 템플릿 오버로딩의 핵심 메커니즘
 
-- [[Concepts (개념)]] #cpp #templates #concepts
 	- 템플릿 매개변수에 대한 제약 조건
 
-- [[Template Metaprogramming (템플릿 메타프로그래밍)]] #cpp #templates #metaprogramming
 	- 컴파일 시점에 수행되는 프로그래밍 
 
 

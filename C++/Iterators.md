@@ -26,13 +26,10 @@
 
 ## 관련 개념 (Related Concepts)
 
-- [[STL Containers (STL 컨테이너)]] #cpp #stl #containers
 	- 반복자가 접근하는 데이터 구조
 
-- [[STL Algorithms (STL 알고리즘)]] #cpp #stl #algorithms
 	- 반복자를 사용하는 알고리즘
 
-- [[Iterator Invalidation (반복자 무효화)]] #cpp #iterator #safety
 	- 반복자가 유효하지 않게 되는 상황 
 
 

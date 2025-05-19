@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- STL
-- Containers
-- DataStructures
-- Algorithms
-aliases:
-- STLContainers
-- CppSTL
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## STL 컨테이너 (STL Containers)
 
@@ -38,13 +24,10 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Iterators (반복자)]] #cpp #stl #iteration
 	- 컨테이너의 요소에 접근하는 방법
 
-- [[Algorithms (알고리즘)]] #cpp #stl #algorithms
 	- 컨테이너의 데이터를 처리하는 함수들
 
-- [[Templates (템플릿)]] #cpp #generic #programming
 	- STL의 기본이 되는 제네릭 프로그래밍 기능 
 
 

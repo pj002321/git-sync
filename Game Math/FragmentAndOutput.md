@@ -1,13 +1,4 @@
----
-tags:
--프레그먼트-출력병합-픽셀-블렌딩-그래픽스
--fragment-output-pixel-blending-graphics
--게임개발-면접-파이프라인-렌더링
-aliases:
--프레그먼트
--FragmentProcessing
--출력병합
--OutputMerger
+
 
 ## 프레그먼트 처리와 출력 병합 (FRAGMENT PROCESSING & OUTPUT MERGER)
 
@@ -49,3 +40,5 @@ OMSetBlendState(...);
   A. Surface Shader, Blend, ZTest, Stencil 등.
 - Q. DirectX에서 Output Merger를 제어하는 방법은?
   A. OMSetBlendState, Depth/Stencil State 등 활용. 
+
+[[GameMath]]

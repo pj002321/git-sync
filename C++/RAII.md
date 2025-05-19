@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- RAII
-- Resource
-- Management
-- Pattern
-aliases:
-- RAII
-- ResourceAcquisitionIsInitialization
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 자원 획득 초기화 (RAII)
 
@@ -38,13 +24,10 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Smart_Pointers|SmartPointers]] #cpp #memory #safety
 	- RAII 패턴을 사용한 메모리 관리
 
-- [[Exception Safety (예외 안전성)]] #cpp #exception #safety
 	- 예외 발생 시에도 리소스가 안전하게 관리됨
 
-- [[Destructor (소멸자)]] #cpp #class #destructor
 	- RAII의 핵심이 되는 객체 소멸 시점 처리 
 
 

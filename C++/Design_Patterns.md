@@ -24,13 +24,8 @@
 
 ## 관련 개념 (Related Concepts)
 
-- [[Singleton (싱글톤)]] #cpp #pattern #singleton
 	- 전역적으로 하나의 인스턴스만 허용하는 패턴
-
-- [[Factory Method (팩토리 메서드)]] #cpp #pattern #factory
 	- 객체 생성의 유연성을 높이는 패턴
-
-- [[Observer (옵저버)]] #cpp #pattern #observer
 	- 객체 간의 느슨한 결합을 구현하는 패턴 
 
 

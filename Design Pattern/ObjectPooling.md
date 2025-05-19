@@ -1,11 +1,4 @@
----
-tags:
-- object-pooling-pattern-design
-- optimization-game
-- 게임개발-면접-최적화-재사용
-aliases:
-- ObjectPooling
-- 오브젝트풀링
+
 
 ## 오브젝트 풀링 패턴 (Object Pooling Pattern)
 
@@ -48,7 +41,3 @@ public class ObjectPool<T> where T : new() {
   A. 총알, 이펙트, 적 등 반복 생성/파괴 오브젝트.
 - Q. 오브젝트 풀링 구현 시 주의점은?
   A. 반환 시 상태 초기화, 풀 크기 관리.
-
-## 관련 개념 (Related Concepts)
-- [[디자인 패턴 (Design Pattern)]] #designpattern #oop
-- [[최적화 패턴]] #optimization #pattern 

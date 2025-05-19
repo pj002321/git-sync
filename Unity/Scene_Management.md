@@ -38,11 +38,9 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Scene (씬)]] #unity #scene #workflow
 	- 게임의 각 부분을 구성하는 단위
-
-- [[DontDestroyOnLoad (파괴하지 않음)]] #unity #persistence #management
 	- 씬 전환 시에도 유지되어야 하는 객체를 관리
-
-- [[Scene Loading (씬 로딩)]] #unity #loading #performance
 	- 씬을 로드하는 다양한 방법 
+
+
+[[C-Sharp&Unity]]

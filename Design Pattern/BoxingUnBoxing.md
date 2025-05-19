@@ -1,13 +1,3 @@
----
-tags:
-- boxing-unboxing-csharp
-- dotnet-performance
-- 게임개발-면접-타입변환-성능
-aliases:
-- Boxing
-- UnBoxing
-- 박싱
-- 언박싱
 
 ## 박싱과 언박싱 (Boxing & Unboxing)
 
@@ -40,7 +30,7 @@ int m = (int)obj; // 언박싱
 - **C#/.NET/Unity 실전**: 컬렉션(List<object> 등), 인터페이스, 박싱 최소화로 성능 최적화
 - **실전 팁**: 제네릭 사용, 박싱/언박싱 최소화, 프로파일링으로 성능 확인
 
-## 예상 면접 질문과 답변
+예상 면접 질문과 답변
 - Q. 박싱과 언박싱이란?
   A. 값 타입을 참조 타입(object)으로 변환(박싱), 다시 값 타입으로 변환(언박싱)하는 과정입니다.
 - Q. 박싱/언박싱의 단점은?
@@ -50,6 +40,3 @@ int m = (int)obj; // 언박싱
 - Q. Unity에서 박싱/언박싱이 성능에 미치는 영향은?
   A. GC/프레임 드랍 유발, 최적화 필요.
 
-## 관련 개념 (Related Concepts)
-- [[C# 타입 시스템]] #csharp #type #system
-- [[성능 최적화]] #performance #optimization 

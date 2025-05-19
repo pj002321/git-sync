@@ -1,12 +1,3 @@
----
-tags:
-- unity-shader-lit-unlit-graphics
-- unity-graphics-material-surface-shader
-- 게임개발-면접-렌더링-머티리얼
-aliases:
-- UnityShader
-- LitShader
-- UnlitShader
 
 ## Unity 셰이더 (Unity Shader: Lit, Unlit 등)
 
@@ -101,8 +92,4 @@ Shader "Custom/LitSimple" {
 - Q. SRP(URP/HDRP)에서 Lit/Unlit 셰이더의 차이는?
   A. 파이프라인별로 지원 속성/구조/최적화 방식이 다름.
 
-## 관련 개념 (Related Concepts)
-- [[머티리얼 (Material)]] #unity #material #shader
-- [[렌더링 파이프라인 (Pipeline)]] #unity #pipeline #graphics
-- [[Shader Graph]] #unity #shadergraph #visual
-- [[조명 (Lighting)]] #unity #lighting #pbr 
+[[C-Sharp&Unity]]

@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- SmartPointers
-- Memory
-- Safety
-- ModernCpp
-aliases:
-- SmartPointers
-- CppSmartPointers
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 스마트 포인터 (Smart Pointers)
 
@@ -38,11 +24,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Memory Management (메모리 관리)]] #cpp #memory #management
 	- 스마트 포인터가 해결하는 메모리 관리 문제
 
-- [[RAII (자원 획득 초기화)]] #cpp #pattern #resource
 	- 스마트 포인터의 기본이 되는 디자인 패턴
 
-- [[Modern C++ Features (모던 C++ 기능)]] #cpp #modern #features
 	- C++11 이후 도입된 새로운 기능들 

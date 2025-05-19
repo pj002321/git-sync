@@ -25,13 +25,10 @@
 
 ## 관련 개념 (Related Concepts)
 
-- [[Function Objects (함수 객체)]] #cpp #functor #object
 	- 람다의 기반이 되는 개념
 
-- [[STL Algorithms (STL 알고리즘)]] #cpp #stl #algorithms
 	- 람다와 함께 자주 사용되는 알고리즘
 
-- [[Modern C++ Features (모던 C++ 기능)]] #cpp #modern #features
 	- C++11 이후 도입된 새로운 기능들 
 
 

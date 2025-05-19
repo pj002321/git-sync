@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- ModernCpp
-- Cpp11
-- Cpp14
-- Cpp17
-aliases:
-- ModernCpp
-- CppModern
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 모던 C++ 기능 (Modern C++ Features)
 
@@ -39,13 +25,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Smart Pointers (스마트 포인터)]] #cpp #memory #safety
 	- C++11에서 도입된 자동 메모리 관리 기능
-
-- [[Move Semantics (이동 의미론)]] #cpp #performance #rvalue
 	- 객체의 효율적인 이동을 위한 기능
-
-- [[Lambda Expressions (람다 표현식)]] #cpp #functional #programming
 	- 익명 함수를 정의하는 방법 
 
 [[C++]]  

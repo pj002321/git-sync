@@ -38,11 +38,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[GameObject (게임오브젝트)]] #unity #gameobject #component
 	- MonoBehaviour가 부착되는 기본 객체
-
-- [[Component (컴포넌트)]] #unity #component #architecture
 	- MonoBehaviour의 부모 클래스
-
-- [[Coroutine (코루틴)]] #unity #coroutine #programming
 	- MonoBehaviour에서 제공하는 비동기 실행 기능 
+
+[[C-Sharp&Unity]]

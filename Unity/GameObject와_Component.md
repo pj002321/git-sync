@@ -38,11 +38,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Transform (트랜스폼)]] #unity #component #transform
 	- GameObject의 위치, 회전, 크기를 제어하는 기본 컴포넌트
-
-- [[Prefab (프리팹)]] #unity #prefab #asset
 	- 재사용 가능한 GameObject 템플릿
-
-- [[Scene (씬)]] #unity #scene #management
 	- GameObject들이 존재하는 공간 
+
+[[C-Sharp&Unity]]

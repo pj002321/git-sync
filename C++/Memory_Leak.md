@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- Memory
-- Leak
-- Bug
-- Debugging
-aliases:
-- MemoryLeak
-- CppMemoryLeak
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 메모리 누수 (Memory Leak)
 
@@ -38,13 +24,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Smart Pointers (스마트 포인터)]] #cpp #memory #safety
 	- 메모리 누수를 방지하는 자동 메모리 관리
-
-- [[RAII (자원 획득 초기화)]] #cpp #pattern #resource
 	- 리소스의 자동 해제를 보장하는 패턴
-
-- [[Memory Debugging (메모리 디버깅)]] #cpp #debug #memory
 	- 메모리 누수를 찾고 해결하는 방법 
 
 

@@ -38,11 +38,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[MonoBehaviour (모노비헤이비어)]] #unity #scripting #component
 	- 코루틴을 사용할 수 있는 기본 클래스
-
-- [[AsyncOperation (비동기 작업)]] #unity #async #programming
 	- 비동기 작업을 처리하는 클래스
+	- 코루틴에서 실행을 일시 중지하는 키워드
 
-- [[Yield (양보)]] #unity #programming #coroutine
-	- 코루틴에서 실행을 일시 중지하는 키워드 
+[[C-Sharp&Unity]]

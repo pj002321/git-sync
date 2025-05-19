@@ -1,11 +1,4 @@
----
-tags:
--그림자-연산-쉐도우맵-게임수학-그래픽스
--shadow-computation-shadowmap-math-graphics
--게임개발-면접-조명-최적화
-aliases:
--그림자연산
--ShadowComputation
+
 
 ## 그림자 연산 (SHADOW COMPUTATION)
 
@@ -48,3 +41,5 @@ if (depth > shadow) color *= 0.5; // 그림자 영역
   A. Quality Settings, Shadow Resolution, Custom Shader 등.
 - Q. DirectX에서 그림자 연산 최적화 방법은?
   A. Depth Bias, PCF, Cascaded Shadow Map 등. 
+
+[[GameMath]]

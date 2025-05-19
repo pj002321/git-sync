@@ -1,13 +1,3 @@
----
-tags:
--매개변수곡선-곡면-베지어-스플라인-게임수학
--parametric-curve-surface-bezier-spline-math
--게임개발-면접-모델링-애니메이션
-aliases:
--매개변수곡선
--ParametricCurve
--곡면
--Surface
 
 ## 매개변수 곡선과 곡면 (PARAMETRIC CURVE & SURFACE)
 
@@ -45,3 +35,5 @@ Vector3 pos = CatmullRom(p0, p1, p2, p3, t);
   A. Tessellation, Patch, HLSL 등 활용.
 - Q. 실무에서 곡선/곡면이 중요한 이유는?
   A. 자연스러운 경로, 부드러운 모델링/애니메이션 구현. 
+
+[[GameMath]]

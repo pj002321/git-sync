@@ -1,11 +1,4 @@
----
-tags:
-- singleton-pattern-design
-- oop-gof-creation
-- 게임개발-면접-매니저-전역
-aliases:
-- Singleton
-- 싱글톤
+
 
 ## 싱글톤 패턴 (Singleton Pattern)
 
@@ -49,6 +42,3 @@ public class GameManager {
 - Q. 멀티스레드 환경에서 싱글톤 안전하게 구현하려면?
   A. lock, double-check locking 등 동기화 필요.
 
-## 관련 개념 (Related Concepts)
-- [[디자인 패턴 (Design Pattern)]] #designpattern #oop
-- [[매니저 패턴]] #manager #pattern 

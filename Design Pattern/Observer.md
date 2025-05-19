@@ -1,11 +1,4 @@
----
-tags:
-- observer-pattern-design
-- oop-gof-behavior
-- 게임개발-면접-이벤트-알림
-aliases:
-- Observer
-- 옵저버
+
 
 ## 옵저버 패턴 (Observer Pattern)
 
@@ -50,6 +43,3 @@ public class Subject {
 - Q. 옵저버 패턴에서 메모리 누수 방지법은?
   A. 구독 해제(이벤트 핸들러 제거) 필요.
 
-## 관련 개념 (Related Concepts)
-- [[디자인 패턴 (Design Pattern)]] #designpattern #oop
-- [[이벤트 패턴]] #event #pattern 

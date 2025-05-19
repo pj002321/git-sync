@@ -1,4 +1,4 @@
-[[GameMath]]
+
 
 ---
 ## 벡터 (VECTOR)
@@ -39,3 +39,4 @@ Vector3 cross = Vector3.Cross(a, b); // a×b = 수직 벡터
   A. 이동, 방향, 속도, 힘, 카메라/캐릭터 제어 등.
 - Q. Unity에서 벡터 연산을 최적화하는 방법은?
   A. Normalize, Dot, Cross 등 내장 함수 적극 활용.
+[[GameMath]]

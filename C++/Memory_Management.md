@@ -1,17 +1,3 @@
----
-tags:
-- C++
-- Memory
-- Management
-- Interview
-- Programming
-aliases:
-- MemoryManagement
-- CppMemory
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 메모리 관리 (Memory Management)
 
@@ -39,13 +25,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[Smart Pointers (스마트 포인터)]] #cpp #memory #safety
 	- 자동 메모리 관리를 제공하는 포인터 클래스
-
-- [[RAII (자원 획득 초기화)]] #cpp #pattern #resource
 	- 리소스의 수명을 객체의 수명에 바인딩하는 패턴
-
-- [[Memory Leak (메모리 누수)]] #cpp #bug #memory
 	- 할당된 메모리가 해제되지 않는 문제 
 
 [[C++]]  

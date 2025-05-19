@@ -36,13 +36,4 @@ author: "[[작성자]]"
 	- isDone 속성으로 작업 완료 여부를 확인할 수 있습니다.
 	- allowSceneActivation으로 씬 활성화 시점을 제어할 수 있습니다.
 
-## 관련 개념 (Related Concepts)
-
-- [[Coroutine (코루틴)]] #unity #coroutine #programming
-	- 비동기 작업을 처리하는 방법
-
-- [[Scene Loading (씬 로딩)]] #unity #loading #performance
-	- 씬을 비동기적으로 로드하는 방법
-
-- [[Asset Bundle (에셋 번들)]] #unity #asset #loading
-	- 에셋을 비동기적으로 로드하는 방법 
+[[C-Sharp&Unity]]

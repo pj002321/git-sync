@@ -1,17 +1,3 @@
----
-tags:
-- Unity
-- Scene
-- Persistence
-- Management
-- Architecture
-aliases:
-- DontDestroyOnLoad
-- UnityPersistence
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 파괴하지 않음 (DontDestroyOnLoad)
 
@@ -37,12 +23,9 @@ author: "[[작성자]]"
 	- 메모리 관리에 주의가 필요합니다.
 
 ## 관련 개념 (Related Concepts)
-
-- [[Scene Management (씬 관리)]] #unity #scene #management
 	- 씬 전환과 관련된 기능
-
-- [[Singleton (싱글톤)]] #unity #pattern #architecture
 	- 전역적으로 하나의 인스턴스만 유지하는 디자인 패턴
-
-- [[Game Manager (게임 매니저)]] #unity #management #architecture
 	- 게임의 전반적인 상태를 관리하는 매니저 
+
+
+[[C-Sharp&Unity]]

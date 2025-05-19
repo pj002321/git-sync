@@ -39,11 +39,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[MonoBehaviour (모노비헤이비어)]] #unity #scripting #component
-	- 생명주기 이벤트를 제공하는 기본 클래스
+	- MonoBehaviour : 생명주기 이벤트를 제공하는 기본 클래스
+	- Event Function : 생명주기의 각 단계에서 호출되는 함수
+	- Script Excution Order : 스크립트 간의 실행 순서를 제어하는 방법 
 
-- [[Event Function (이벤트 함수)]] #unity #event #programming
-	- 생명주기의 각 단계에서 호출되는 함수
-
-- [[Script Execution Order (스크립트 실행 순서)]] #unity #execution #order
-	- 스크립트 간의 실행 순서를 제어하는 방법 
+[[C-Sharp&Unity]]

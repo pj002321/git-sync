@@ -38,11 +38,8 @@ author: "[[작성자]]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[GameObject (게임오브젝트)]] #unity #gameobject #component
 	- 프리팹의 기본 구성 요소
-
-- [[Asset (에셋)]] #unity #asset #resource
 	- 프리팹이 저장되는 형태
-
-- [[Prefab Variant (프리팹 변형)]] #unity #prefab #workflow
 	- 기본 프리팹을 확장하는 방법 
+
+[[C-Sharp&Unity]]
