@@ -18,31 +18,6 @@
 
 <Template for markdown files>
 
----
-
-tags:
-
-- DOMAIN 1
-
-- DOMAIN 2
-
-- METHODOLOGY
-
-- RELATED to the TERMINOLOGY
-
-aliases:
-
-- TERMINOLOGY ALIAS 1
-
-- TERMINOLOGY ALIAS 2
-
-CMDS: "[[:books: 104 Terminologies]]" 
-
-index: "[[:label: Research Notes]]"
-
-author: "[[해당 자료 작성자]" 
-
----
 
 ## 한글 용어 (ENGLISH TERMINOLOGY)
 
@@ -96,16 +71,9 @@ author: "[[해당 자료 작성자]"
 
 ## 관련 개념 (Related Concepts)
 
-- [[한글 관련개념 (ENGLISH RELATED CONCEPT]] #tags
+	- 내용
 
 	- 내용
 
-- [[한글 관련개념 (ENGLISH RELATED CONCEPT]] #tags
-
 	- 내용
 
-- [[한글 관련개념 (ENGLISH RELATED CONCEPT]] #tags
-
-	- 내용
-
-이거 길어서 짤리면 너가 계속 보내주던가 이어서 아니면 이어서 할 준비해

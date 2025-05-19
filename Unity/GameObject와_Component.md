@@ -1,19 +1,5 @@
----
-tags:
-- Unity
-- GameDevelopment
-- GameObject
-- Component
-- Architecture
-aliases:
-- GameObject
-- Component
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
-## 게임오브젝트와 컴포넌트 (GameObject and Component)
+## GameObject and Component
 
 #### What is GameObject and Component
 

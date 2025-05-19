@@ -67,3 +67,5 @@ float3 diffuse = NdotL * lightColor * materialColor;
   A. 머티리얼은 셰이더와 속성값을 조합한 렌더링 단위.
 - Q. 실시간 렌더링에서 셰이더가 중요한 이유는?
   A. 다양한 시각 효과와 성능 최적화에 핵심 역할. 
+
+[[Graphics]]

@@ -41,4 +41,4 @@ public class GameManager {
   A. GameManager, AudioManager 등 전역 관리 객체.
 - Q. 멀티스레드 환경에서 싱글톤 안전하게 구현하려면?
   A. lock, double-check locking 등 동기화 필요.
-
+[[DesignPattern]]

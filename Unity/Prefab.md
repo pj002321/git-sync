@@ -1,19 +1,5 @@
----
-tags:
-- Unity
-- Asset
-- Prefab
-- Reusability
-- Workflow
-aliases:
-- Prefab
-- UnityPrefab
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
-## 프리팹 (Prefab)
+## Prefab
 
 #### What is Prefab
 

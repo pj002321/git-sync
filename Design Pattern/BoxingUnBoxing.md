@@ -40,3 +40,4 @@ int m = (int)obj; // 언박싱
 - Q. Unity에서 박싱/언박싱이 성능에 미치는 영향은?
   A. GC/프레임 드랍 유발, 최적화 필요.
 
+[[DesignPattern]]

@@ -1,17 +1,3 @@
----
-tags:
-- Unity
-- Programming
-- Coroutine
-- Async
-- Performance
-aliases:
-- Coroutine
-- UnityCoroutine
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 코루틴 (Coroutine)
 

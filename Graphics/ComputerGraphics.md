@@ -55,13 +55,10 @@
 
 ## 관련 개념 (Related Concepts)
 
-- [[렌더링 (RENDERING)]] #computergraphics-rendering
-	- 3D/2D 장면을 이미지로 변환하는 과정
-- [[파이프라인 (PIPELINE)]] #computergraphics-pipeline
-	- 그래픽스 처리의 단계적 흐름(모델링→변환→조명→렌더링)
-- [[모델링 (MODELING)]] #computergraphics-modeling
-	- 3D 오브젝트의 기하 구조를 정의하는 과정
-- [[조명 (LIGHTING)]] #computergraphics-lighting
-	- 장면 내 빛의 효과를 시뮬레이션하는 기술
-- [[텍스처링 (TEXTURING)]] #computergraphics-texturing
-	- 표면에 이미지를 입혀 사실감을 높이는 기법 
+	- 렌더링 : 3D/2D 장면을 이미지로 변환하는 과정
+	- 파이프라인 : 그래픽스 처리의 단계적 흐름(모델링→변환→조명→렌더링)
+	- 모델링 : 3D 오브젝트의 기하 구조를 정의하는 과정
+	- 조명 : 장면 내 빛의 효과를 시뮬레이션하는 기술
+	- 텍스쳐링 : 표면에 이미지를 입혀 사실감을 높이는 기법 
+
+[[Graphics]]

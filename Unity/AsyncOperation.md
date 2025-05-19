@@ -1,17 +1,3 @@
----
-tags:
-- Unity
-- Async
-- Loading
-- Performance
-- Programming
-aliases:
-- AsyncOperation
-- UnityAsync
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 비동기 작업 (AsyncOperation)
 

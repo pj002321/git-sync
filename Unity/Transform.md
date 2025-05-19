@@ -1,19 +1,5 @@
----
-tags:
-- Unity
-- Component
-- Transform
-- Position
-- Rotation
-aliases:
-- Transform
-- UnityTransform
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
-## 트랜스폼 (Transform)
+## Transform
 
 #### What is Transform
 

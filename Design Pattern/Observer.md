@@ -43,3 +43,4 @@ public class Subject {
 - Q. 옵저버 패턴에서 메모리 누수 방지법은?
   A. 구독 해제(이벤트 핸들러 제거) 필요.
 
+[[DesignPattern]]

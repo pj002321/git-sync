@@ -1,17 +1,3 @@
----
-tags:
-- Unity
-- Scene
-- Management
-- Workflow
-- Architecture
-aliases:
-- SceneManagement
-- UnityScene
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 씬 관리 (Scene Management)
 

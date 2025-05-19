@@ -1,17 +1,3 @@
----
-tags:
-- Unity
-- Lifecycle
-- MonoBehaviour
-- Event
-- Programming
-aliases:
-- UnityLifecycle
-- MonoBehaviourLifecycle
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 유니티 생명주기 (Unity Lifecycle)
 

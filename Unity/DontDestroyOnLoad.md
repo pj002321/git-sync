@@ -1,5 +1,5 @@
 
-## 파괴하지 않음 (DontDestroyOnLoad)
+## DontDestroyOnLoad
 
 #### What is DontDestroyOnLoad
 

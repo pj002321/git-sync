@@ -66,3 +66,5 @@ float3 diffuse = NdotL * lightColor * materialColor;
   A. Depth map 생성, 셰이더에서 Shadow map 샘플링, Bias/Filtering 등 추가 구현 필요.
 - Q. 실무에서 조명 최적화 방법은?
   A. 광원 수 제한, 베이크드 활용, 동적 그림자 최소화, LOD, Light Probe/Reflection Probe 적극 활용. 
+
+[[Graphics]]

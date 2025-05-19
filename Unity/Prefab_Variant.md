@@ -1,17 +1,3 @@
----
-tags:
-- Unity
-- Prefab
-- Variant
-- Workflow
-- Asset
-aliases:
-- PrefabVariant
-- UnityPrefabVariant
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
 ## 프리팹 변형 (Prefab Variant)
 

@@ -41,3 +41,4 @@ public class ObjectPool<T> where T : new() {
   A. 총알, 이펙트, 적 등 반복 생성/파괴 오브젝트.
 - Q. 오브젝트 풀링 구현 시 주의점은?
   A. 반환 시 상태 초기화, 풀 크기 관리.
+[[DesignPattern]]

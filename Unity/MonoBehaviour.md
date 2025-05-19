@@ -1,20 +1,5 @@
----
-tags:
-- Unity
-- Scripting
-- MonoBehaviour
-- Component
-- Programming
-aliases:
-- MonoBehaviour
-- UnityScript
-CMDS: "[[:books: 104 Terminologies]]" 
-index: "[[:label: Research Notes]]"
-author: "[[작성자]]" 
----
 
-## MonoBehaviour (모노비헤이비어)
-
+## MonoBehaviour 
 #### What is MonoBehaviour
 
 - 정의 (Definition):
