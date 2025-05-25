@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ef2e3d4ded280dd5",
@@ -183,9 +183,10 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
-    "Coding Test/Level1/콜라문제.md",
     "Coding Test/Level1/숫자 문자열과 영단어.md",
     "Coding Test/Level1/두개 뽑아서 더하기.md",
+    "Coding Test/Level1/무제.md",
+    "Coding Test/Level1/콜라문제.md",
     "Coding Test/Level1",
     "Coding Test",
     "type.md",
@@ -210,7 +211,6 @@
     "Unity/Prefab.md",
     "Unity/MonoBehaviour.md",
     "Unity/GameObject와_Component.md",
-    "Unity/DontDestroyOnLoad.md",
     "C-Sharp",
     "Unity",
     "MagazineStyle",
