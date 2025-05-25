@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Test/Level1/문자열 내 마음대로 정렬하기.md",
+                "file": "Coding Test/Level1/비밀지도.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "문자열 내 마음대로 정렬하기"
+              "title": "비밀지도"
             }
           }
         ],
@@ -183,10 +183,11 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
-    "Coding Test/Level1/콜라문제.md",
-    "Coding Test/Level1/숫자 문자열과 영단어.md",
-    "Coding Test/Level1/두개 뽑아서 더하기.md",
     "Coding Test/Level1/문자열 내 마음대로 정렬하기.md",
+    "Coding Test/Level1/숫자 문자열과 영단어.md",
+    "Coding Test/Level1/비밀지도.md",
+    "Coding Test/Level1/콜라문제.md",
+    "Coding Test/Level1/두개 뽑아서 더하기.md",
     "Coding Test/Level1",
     "Coding Test",
     "type.md",
@@ -210,7 +211,6 @@
     "Unity/Prefab_Variant.md",
     "Unity/Prefab.md",
     "Unity/MonoBehaviour.md",
-    "Unity/GameObject와_Component.md",
     "C-Sharp",
     "Unity",
     "MagazineStyle",
