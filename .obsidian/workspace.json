@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graphics/Shadow.md",
+                "file": "Graphics/Texturing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shadow"
+              "title": "Texturing"
             }
           }
         ],
@@ -206,8 +206,9 @@
   },
   "active": "858d37c2fa2aca5e",
   "lastOpenFiles": [
-    "Graphics/anti-aliasing.md",
     "Graphics/Shadow.md",
+    "Graphics/Texturing.md",
+    "Graphics/anti-aliasing.md",
     "Graphics/Shader.md",
     "Graphics/ComputerGraphics.md",
     "Graphics/Rendering.md",
@@ -233,7 +234,6 @@
     "C++/RAII.md",
     "Unity/Shader.md",
     "Graphics/Lighting.md",
-    "Game Math/VertexTransformation.md",
     "Coding Test",
     "Unity",
     "형식",
