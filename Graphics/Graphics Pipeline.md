@@ -52,3 +52,6 @@ $MVP = M_{projection} \cdot M_{view} \cdot M_{world}$
 $P_{clip} = MVP \cdot P_{local}$
 
 이후 클립 공간의 좌표 $P_{clip}$에 원근 나누기를 적용하여 NDC 좌표를 얻고, 최종적으로 뷰포트 변환을 거쳐 화면에 픽셀로 그려지게 됩니다 (이 과정을 **래스터화**라고 합니다).
+
+
+[[Graphics]]
