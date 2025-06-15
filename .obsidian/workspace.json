@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Test/Level1/문자열 나누기.md",
+                "file": "Coding Test/KEYWORD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "문자열 나누기"
+              "title": "KEYWORD"
             }
           }
         ],
@@ -183,8 +183,10 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
-    "Coding Test/Level1/로또번호.md",
+    "Coding Test/Level1/체육복.md",
+    "Coding Test/KEYWORD.md",
     "Coding Test/Level1/문자열 나누기.md",
+    "Coding Test/Level1/로또번호.md",
     "Coding Test/Level1/다트 게임.md",
     "Coding Test/Level1/콜라문제.md",
     "Coding Test/Level1/지폐접기.md",
@@ -210,8 +212,6 @@
     "Graphics/anti-aliasing.md",
     "Graphics/ComputerGraphics.md",
     "Graphics/Lighting.md",
-    "Graphics/Pipeline.md",
-    "Graphics/Rendering.md",
     "C-Sharp",
     "Unity",
     "MagazineStyle",
