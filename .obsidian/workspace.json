@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Test/Level1/소수찾기.md",
+                "file": "Coding Test/Level1/짝궁찾기 (String).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "소수찾기"
+              "title": "짝궁찾기 (String)"
             }
           }
         ],
@@ -183,6 +183,8 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
+    "Coding Test/Level1/소수찾기.md",
+    "Coding Test/Level1/짝궁찾기 (String).md",
     "Coding Test/Level1/숫자 문자열과 영단어.md",
     "Coding Test/Level1/실패율.md",
     "Coding Test/Level1/지폐접기.md",
@@ -195,7 +197,6 @@
     "Coding Test/Level1/2016.md",
     "Coding Test/Level1/다트 게임.md",
     "Coding Test/Level1/문자열 내 마음대로 정렬하기.md",
-    "Coding Test/Level1/소수찾기.md",
     "Coding Test/KEYWORD.md",
     "Pasted image 20250602102518.png",
     "Graphics/Texturing.md",
@@ -211,7 +212,6 @@
     "C++/Factory_Method.md",
     "Graphics/anti-aliasing.md",
     "Graphics/ComputerGraphics.md",
-    "Graphics/Lighting.md",
     "C-Sharp",
     "Unity",
     "MagazineStyle",
