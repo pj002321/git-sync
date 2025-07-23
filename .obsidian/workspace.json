@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Test/DP/백준-설탕 배달.md",
+                "file": "C++/문법/Const.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "백준-설탕 배달"
+              "title": "Const"
             }
           }
         ],
@@ -183,8 +183,10 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
-    "Coding Test/DP/1로 만들기.md",
     "Coding Test/DP/백준-설탕 배달.md",
+    "C++/문법/Const.md",
+    "C++/문법",
+    "Coding Test/DP/1로 만들기.md",
     "Coding Test/DP/DP란.md",
     "Coding Test/Level1/짝궁찾기 (String).md",
     "Coding Test/DP",
@@ -212,14 +214,12 @@
     "Coding Test",
     "type.md",
     "C++/Algorithms.md",
-    "C++/Smart_Pointers.md",
     "C-Sharp",
     "Unity",
     "MagazineStyle",
     "Development Principles",
     "OS/Image/Pasted image 20250415111818.png",
     "OS/Image",
-    "OS",
-    "Network"
+    "OS"
   ]
 }
