@@ -19,7 +19,7 @@ int a = 3.141592;
 int a = float(3.141592);
 or
 int a = (float)3.141592;
-
+=> a = 3.141592
 ```
 
 
@@ -27,7 +27,7 @@ int a = (float)3.141592;
 ```cpp
 char c = 'M';
 int a = static_cast<int> c;
-a= 77;
+=> a = 77;
 
 ```
 **C++ : static_cast<typeName>
