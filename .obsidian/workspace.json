@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/문법/사용자 입력.md",
+                "file": "C++/문법/구조체.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "사용자 입력"
+              "title": "구조체"
             }
           }
         ],
@@ -183,8 +183,9 @@
   },
   "active": "69042e85742dc726",
   "lastOpenFiles": [
+    "C++/문법/사용자 입력과 String.md",
+    "C++/문법/구조체.md",
     "C++/문법/배열과 문자열.md",
-    "C++/문법/사용자 입력.md",
     "C++/문법/Const 와 형변환.md",
     "Coding Test/DP/백준-설탕 배달.md",
     "C++/문법",
@@ -211,7 +212,6 @@
     "Graphics/Shadow.md",
     "Graphics/Rendering Pipeline.md",
     "Graphics/Graphics Pipeline.md",
-    "Game Math/MATTRIX.md",
     "Coding Test/Level1",
     "Coding Test",
     "C-Sharp",
