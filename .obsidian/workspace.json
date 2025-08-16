@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Test/배열/방 번호.md",
+                "file": "Coding Test/배열/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "방 번호"
+              "title": "무제"
             }
           }
         ],
@@ -181,10 +181,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "69042e85742dc726",
+  "active": "9335c6af417a2b0c",
   "lastOpenFiles": [
-    "Coding Test/배열/숫자의 개수.md",
     "Coding Test/배열/방 번호.md",
+    "Coding Test/배열/무제.md",
+    "Coding Test/배열/숫자의 개수.md",
     "Coding Test/DP/백준-설탕 배달.md",
     "Coding Test/배열",
     "Coding Test/DP/1로 만들기.md",
@@ -211,7 +212,6 @@
     "Coding Test/Level1/두개 뽑아서 더하기.md",
     "Coding Test/Level1/비밀지도.md",
     "Coding Test/Level1/로또번호.md",
-    "Coding Test/Level1/문자열 나누기.md",
     "Pasted image 20250602102518.png",
     "Coding Test/Level1",
     "Coding Test",
