@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Test/배열/Strfry.md",
+                "file": "Coding Test/배열/에너그램.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Strfry"
+              "title": "에너그램"
             }
           }
         ],
@@ -184,7 +184,7 @@
   "active": "69042e85742dc726",
   "lastOpenFiles": [
     "Coding Test/배열/방 배정.md",
-    "Coding Test/배열/Strfry.md",
+    "Coding Test/배열/에너그램.md",
     "Coding Test/배열/두수의 합.md",
     "Coding Test/배열/방 번호.md",
     "Coding Test/배열/숫자의 개수.md",
