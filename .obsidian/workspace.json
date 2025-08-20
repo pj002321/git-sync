@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "제로"
             }
+          },
+          {
+            "id": "502669056bdb1d6f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
@@ -166,7 +180,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8209c76a1bf6a89f",
+  "active": "502669056bdb1d6f",
   "lastOpenFiles": [
     "Coding Test/스택/제로.md",
     "Unity/DontDestroyOnLoad.md",
