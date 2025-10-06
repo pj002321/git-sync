@@ -32,9 +32,21 @@
               "icon": "lucide-file",
               "title": "LINQ"
             }
+          },
+          {
+            "id": "4d47bdcc265cf956",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.14"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,7 +192,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8209c76a1bf6a89f",
+  "active": "4d47bdcc265cf956",
   "lastOpenFiles": [
     "C-Sharp/Async Programming.md",
     "Game Math/CollisionDetection.md",
