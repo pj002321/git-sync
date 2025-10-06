@@ -37,12 +37,14 @@
             "id": "4d47bdcc265cf956",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "C-Sharp/GarbageCollection.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.14"
+              "icon": "lucide-file",
+              "title": "GarbageCollection"
             }
           }
         ],
@@ -194,6 +196,7 @@
   },
   "active": "4d47bdcc265cf956",
   "lastOpenFiles": [
+    "C-Sharp/AsyncAwait.md",
     "C-Sharp/Async Programming.md",
     "Game Math/CollisionDetection.md",
     "Game Math/FragmentAndOutput.md",
@@ -221,7 +224,6 @@
     "Algorithm/버블정렬.md",
     "C++/문법/포인터.md",
     "C++/문법/공용체와 열거체.md",
-    "C++/문법/구조체.md",
     "C++/문법",
     "Coding Test/DP",
     "Pasted image 20250602102518.png",
