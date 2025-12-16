@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/프록시패턴.md",
+                "file": "CS/박싱-언박싱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프록시패턴"
+              "title": "박싱-언박싱"
             }
           }
         ]
@@ -167,13 +167,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2e730938cc8cd133",
+  "active": "9335c6af417a2b0c",
   "lastOpenFiles": [
+    "Design Pattern/전략 패턴.md",
+    "Design Pattern/프록시패턴.md",
     "Design Pattern/팩토리패턴.md",
     "Design Pattern/옵저버 패턴.md",
-    "Design Pattern/프록시패턴.md",
     "Design Pattern/싱글톤 패턴.md",
-    "Design Pattern/BoxingUnBoxing.md",
+    "CS/박싱-언박싱.md",
     "C++/Design_Patterns.md",
     "CS/라이브러리와 프레임워크.md",
     "C++/Move_Semantics.md",
@@ -194,7 +195,6 @@
     "C-Sharp/Async Programming.md",
     "Game Math/FragmentAndOutput.md",
     "Data Structure/Linked List.md",
-    "Data Structure/List, Array.md",
     "Coding Test/스택",
     "Coding Test/배열",
     "C++/문법",
