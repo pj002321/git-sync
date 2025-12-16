@@ -80,4 +80,8 @@ Unity는 전통적인 MVC 구조와 잘 맞지 않는다.
 ### 3. 생명주기 제어 불가
 - 생성/파괴 시점이 Unity 엔진에 종속됨
 
+Model → 순수 C# 클래스
+View → MonoBehaviour (UI, 화면)
+Controller → MonoBehaviour or Service
+
 [[DesignPattern]]
