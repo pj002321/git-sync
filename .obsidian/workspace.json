@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/라이브러리와 프레임워크.md",
+                "file": "Design Pattern/Singleton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "라이브러리와 프레임워크"
+              "title": "Singleton"
             }
           }
         ]
@@ -169,8 +169,11 @@
   },
   "active": "2e730938cc8cd133",
   "lastOpenFiles": [
-    "C++/Move_Semantics.md",
+    "Design Pattern/Observer.md",
+    "Design Pattern/BoxingUnBoxing.md",
+    "C++/Design_Patterns.md",
     "CS/라이브러리와 프레임워크.md",
+    "C++/Move_Semantics.md",
     "Game Math/CollisionDetection.md",
     "C-Sharp/LINQ.md",
     "Graphics/ComputerGraphics.md",
@@ -192,9 +195,6 @@
     "Coding Test/KEYWORD.md",
     "Coding Test/스택/탑.md",
     "conflict-files-obsidian-git.md",
-    "Coding Test/스택/스택 수열.md",
-    "Coding Test/스택/제로.md",
-    "Unity/DontDestroyOnLoad.md",
     "Coding Test/스택",
     "Coding Test/배열",
     "C++/문법",

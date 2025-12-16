@@ -2,43 +2,43 @@
 
 ## 싱글톤 패턴 (Singleton Pattern)
 
-#### What is Singleton Pattern
+클래스의 인스턴스를 하나만 생성하도록 제한하고 전역 접근 지점을 제공하는 디자인 패턴.
 
-- 정의 (Definition):
-    - 싱글톤은 **프로그램 전체에서 단 하나의 인스턴스**만 존재하도록 보장하는 생성(Creational) 디자인 패턴입니다.
-    - 전역 상태, 리소스 관리, 매니저 등에 활용됩니다.
+왜 쓰는가?
+- 전역 상태 관리
+- 공유 자원 관리
+- 중복 생성 방지
+- 접근 지점 통일
 
-- 예시 (Examples):
-    - 게임의 GameManager, AudioManager 등 전역 관리 객체
-    - 코드 예시 (C#):
-```csharp
-public class GameManager {
+좋은 점
+- 어디서든 접근 가능
+- 상태 공유 쉬움
+- 구조 단순
+
+단점
+- 전역 상태 오염 : 어디서든 접근 가능해 상태 변경 지점이 분산
+- 의존성 숨김 : 생성자나 인터페이스로 드러나지 않아 어떤 객체에 의존하는지 어려움
+- 확장성 저하 : 단일 인스턴스 전제가 구조에 박혀서 요구사항 변경 시 설계 수정 스케일이 큼
+- 멀티스레드 문제 가능 : 동기화가 없으면 동시에 접근할 때 중복 생성이나 데이터 레이스가 발생할 수 있다.
+- 
+```c#
+public class GameManager
+{
     private static GameManager instance;
-    public static GameManager Instance => instance ??= new GameManager();
-    private GameManager() { }
+
+    public static GameManager Instance
+    {
+        get
+        {
+            if (instance == null)
+                instance = new GameManager();
+            return instance;
+        }
+    }
+
+    private GameManager() { } // 외부 생성 차단
 }
 ```
 
-## Literature Review
 
-#### Gamma et al., 1994
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Singleton_pattern)
-    - 싱글톤의 구조, 장단점, 활용 사례
-
-## 주제별 세부 내용 정리와 설명
-- **구조**: 생성자를 private으로 제한, static 인스턴스 제공
-- **장점**: 전역 인스턴스 보장, 리소스 공유, 접근 용이
-- **단점**: 테스트/확장 어려움, 의존성 증가, 멀티스레드 환경 주의
-- **Unity/게임 개발**: GameManager, AudioManager, InputManager 등에서 자주 사용
-- **실전 팁**: 필요 이상 남용 금지, DI/테스트 고려, 멀티스레드 안전성 필요시 lock 등 추가
-
-## 예상 면접 질문과 답변
-- Q. 싱글톤 패턴이란?
-  A. 프로그램 전체에서 단 하나의 인스턴스만 존재하도록 보장하는 패턴입니다.
-- Q. 싱글톤의 장단점은?
-  A. 전역 인스턴스 보장(장점), 테스트/확장 어려움(단점).
-- Q. Unity에서 싱글톤 활용 예시는?
-  A. GameManager, AudioManager 등 전역 관리 객체.
-- Q. 멀티스레드 환경에서 싱글톤 안전하게 구현하려면?
-  A. lock, double-check locking 등 동기화 필요.
 [[DesignPattern]]
