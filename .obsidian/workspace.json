@@ -169,8 +169,9 @@
   },
   "active": "2e730938cc8cd133",
   "lastOpenFiles": [
-    "Design Pattern/팩토리패턴.md",
+    "Design Pattern/MVP 패턴.md",
     "Design Pattern/MVC 패턴.md",
+    "Design Pattern/팩토리패턴.md",
     "Design Pattern/싱글톤 패턴.md",
     "Design Pattern/전략 패턴.md",
     "Design Pattern/ObjectPooling.md",
@@ -194,7 +195,6 @@
     "C-Sharp/AsyncAwait.md",
     "C-Sharp/Delegate.md",
     "C-Sharp/GarbageCollection.md",
-    "C-Sharp/Async Programming.md",
     "Coding Test/스택",
     "Coding Test/배열",
     "C++/문법",
