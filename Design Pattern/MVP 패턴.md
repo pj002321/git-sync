@@ -8,12 +8,10 @@ View는 수동적이고, 중재자가 Model 과 View 사이를 전부 중재한�
 -  UI 로직이 복잡할 때 View가 판단하지 않을 때 (로그인, 상점, 인벤토리 etc)
 
 장점
-- 역할이 명확해 코드 가독성과 유지보수성이 높다.
-- Model 단위 테스트가 쉽다.
+- VIew와 Model의 완전한 분리, 단위 테스트 가능
 
 단점
-- Controller가 비대해질 위험이 있다.
-- 초기 설계 비용이 든다.
+- Present가 비대해질 수 있으며, 클래스 수 증가, 과설계 주의
 
 구조
 ```csharp
@@ -22,32 +20,27 @@ View는 수동적이고, 중재자가 Model 과 View 사이를 전부 중재한�
 public class PlayerModel
 {
     public int HP { get; private set; } = 100;
-
-    public void Damage(int value)
-    {
-        HP -= value;
-    }
+    public void Damage(int value) => HP -= value;
 }
+
 
 // VIEW
-public class PlayerView
+public interface IPlayerView
 {
-    public void UpdateHP(int hp)
-    {
-        Console.WriteLine($"HP: {hp}");
-    }
+    void UpdateHP(int hp);
 }
 
-// CONTROLL
-public class PlayerController
-{
-    private PlayerModel model;
-    private PlayerView view;
 
-    public PlayerController(PlayerModel m, PlayerView v)
+// Presenter
+public class PlayerPresenter
+{
+    private IPlayerView view;
+    private PlayerModel model;
+
+    public PlayerPresenter(IPlayerView v, PlayerModel m)
     {
-        model = m;
         view = v;
+        model = m;
     }
 
     public void Hit(int damage)
@@ -56,6 +49,7 @@ public class PlayerController
         view.UpdateHP(model.HP);
     }
 }
+
 
 
 User Input

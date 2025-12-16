@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/MVC 패턴.md",
+                "file": "Design Pattern/MVP 패턴.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MVC 패턴"
+              "title": "MVP 패턴"
             }
           }
         ]
@@ -169,8 +169,8 @@
   },
   "active": "2e730938cc8cd133",
   "lastOpenFiles": [
-    "Design Pattern/MVP 패턴.md",
     "Design Pattern/MVC 패턴.md",
+    "Design Pattern/MVP 패턴.md",
     "Design Pattern/팩토리패턴.md",
     "Design Pattern/싱글톤 패턴.md",
     "Design Pattern/전략 패턴.md",
